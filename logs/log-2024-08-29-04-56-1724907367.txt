@@ -1,0 +1,692 @@
+ERROR:root:configs: Namespace(batch_size=8, best_model_path='./models_save/epoch:13-2024-08-22-13-35-1724333721/model.bin', cache_dir='./plm', data_path='datasets/FewFC', decoder_dropout=0.3, decoder_num_head=1, device_id=0, do_eval=False, do_lower_case=False, do_test=True, do_train=True, dropout=0.1, epochs_num=20, lr_bert=2e-05, lr_task=0.0001, model_name_or_path='/home/mengfanshen/bert-base-chinese/', output_model_path='./models_save/', output_result_path='models_save/results.txt.json', pow_0=1, pow_1=1, pow_2=1, pow_3=1, report_steps=50, rp_size=64, seed=2333, seq_length=512, step=None, test_path='datasets/FewFC/data/test.json', threshold_0=0.5, threshold_1=0.5, threshold_2=0.5, threshold_3=0.5, threshold_4=0.5, w1=1.0, w2=1.0, w3=1.0, w4=1.0, warmup=0.1, weight_decay=0.0)
+ERROR:root:Batch size: 8
+ERROR:root:The number of training instances: 8299
+ERROR:root:The number of evaluating instances: 1050
+ERROR:root:The number of test instances: 898
+ERROR:root:Training...
+ERROR:root:Epoch id: 1, Training steps: 50, ED loss:35.682662,TE loss:763.349999, AE loss:6585.495029, T2A loss:3.185394, Ro loss:4.990443, Avg loss: 7392.703477
+ERROR:root:Epoch id: 1, Training steps: 100, ED loss:29.845888,TE loss:187.712750, AE loss:3160.568547, T2A loss:1.542011, Ro loss:3.241906, Avg loss: 3382.911074
+ERROR:root:Epoch id: 1, Training steps: 150, ED loss:29.905816,TE loss:97.658102, AE loss:1043.942635, T2A loss:0.279124, Ro loss:1.990946, Avg loss: 1173.776628
+ERROR:root:Epoch id: 1, Training steps: 200, ED loss:29.317104,TE loss:94.873447, AE loss:522.176057, T2A loss:0.241635, Ro loss:1.524802, Avg loss: 648.133043
+ERROR:root:Epoch id: 1, Training steps: 250, ED loss:29.601895,TE loss:94.437215, AE loss:436.445398, T2A loss:0.221965, Ro loss:1.445109, Avg loss: 562.151581
+ERROR:root:Epoch id: 1, Training steps: 300, ED loss:29.189728,TE loss:93.873055, AE loss:408.382451, T2A loss:0.221745, Ro loss:1.440442, Avg loss: 533.107422
+ERROR:root:Epoch id: 1, Training steps: 350, ED loss:29.099786,TE loss:92.103139, AE loss:382.453434, T2A loss:0.226536, Ro loss:1.458605, Avg loss: 505.341495
+ERROR:root:Epoch id: 1, Training steps: 400, ED loss:29.012320,TE loss:92.726521, AE loss:405.879191, T2A loss:0.229785, Ro loss:1.535136, Avg loss: 529.382957
+ERROR:root:Epoch id: 1, Training steps: 450, ED loss:28.552116,TE loss:94.457710, AE loss:392.821444, T2A loss:0.228253, Ro loss:1.472957, Avg loss: 517.532478
+ERROR:root:Epoch id: 1, Training steps: 500, ED loss:28.670207,TE loss:89.596789, AE loss:395.636256, T2A loss:0.228402, Ro loss:1.552927, Avg loss: 515.684585
+ERROR:root:Epoch id: 1, Training steps: 550, ED loss:28.348653,TE loss:71.461014, AE loss:378.752383, T2A loss:0.216844, Ro loss:1.432730, Avg loss: 480.211627
+ERROR:root:Epoch id: 1, Training steps: 600, ED loss:28.071220,TE loss:37.578951, AE loss:358.185624, T2A loss:0.191891, Ro loss:1.313674, Avg loss: 425.341357
+ERROR:root:Epoch id: 1, Training steps: 650, ED loss:27.853098,TE loss:26.244210, AE loss:317.221376, T2A loss:0.177690, Ro loss:1.400483, Avg loss: 372.896857
+ERROR:root:Epoch id: 1, Training steps: 700, ED loss:28.861876,TE loss:21.975910, AE loss:272.588214, T2A loss:0.173915, Ro loss:1.416671, Avg loss: 325.016582
+ERROR:root:Epoch id: 1, Training steps: 750, ED loss:28.075239,TE loss:23.034837, AE loss:234.193602, T2A loss:0.161652, Ro loss:1.269560, Avg loss: 286.734888
+ERROR:root:Epoch id: 1, Training steps: 800, ED loss:26.948096,TE loss:20.101042, AE loss:225.625654, T2A loss:0.162489, Ro loss:1.400729, Avg loss: 274.238010
+ERROR:root:Epoch id: 1, Training steps: 850, ED loss:25.190585,TE loss:19.132388, AE loss:209.658259, T2A loss:0.152666, Ro loss:1.360534, Avg loss: 255.494432
+ERROR:root:Epoch id: 1, Training steps: 900, ED loss:24.766726,TE loss:19.191517, AE loss:209.192025, T2A loss:0.149285, Ro loss:1.367293, Avg loss: 254.666846
+ERROR:root:Epoch id: 1, Training steps: 950, ED loss:23.544672,TE loss:17.986439, AE loss:191.965373, T2A loss:0.142690, Ro loss:1.326679, Avg loss: 234.965851
+ERROR:root:Epoch id: 1, Training steps: 1000, ED loss:22.160766,TE loss:17.151887, AE loss:189.998667, T2A loss:0.144762, Ro loss:1.272268, Avg loss: 230.728349
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 1, Type P: 0.5373, Type R: 0.5666, Type F: 0.4896
+ERROR:root:Epoch id: 1, Trigger P: 0.7671, Trigger R: 0.9065, Trigger F: 0.8310
+ERROR:root:Epoch id: 1, Args P: 0.7754, Args R: 0.0660, Args F: 0.1217
+ERROR:root:Epoch id: 1, F1 Mean All: 0.4807
+ERROR:root:The Best F1 Is: 0.4807, When Epoch Is: 1, Path Is: ./models_save/epoch:1-2024-08-29-04-57-1724907458/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:85.1, R:72.9, F:78.6
+ERROR:root:TC: P:29.8, R:62.6, F:40.4
+ERROR:root:AI: P:0.0, R:0.0, F:0.0
+ERROR:root:AC: P:0.0, R:0.0, F:0.0
+ERROR:root:Training...
+ERROR:root:Epoch id: 2, Training steps: 50, ED loss:18.908841,TE loss:17.965040, AE loss:163.919499, T2A loss:0.142025, Ro loss:1.258070, Avg loss: 202.193475
+ERROR:root:Epoch id: 2, Training steps: 100, ED loss:19.570006,TE loss:16.098319, AE loss:162.421036, T2A loss:0.136750, Ro loss:1.254600, Avg loss: 199.480711
+ERROR:root:Epoch id: 2, Training steps: 150, ED loss:17.416081,TE loss:17.710728, AE loss:151.333356, T2A loss:0.132079, Ro loss:1.134638, Avg loss: 187.726880
+ERROR:root:Epoch id: 2, Training steps: 200, ED loss:15.738425,TE loss:15.281762, AE loss:144.005577, T2A loss:0.122028, Ro loss:1.141921, Avg loss: 176.289714
+ERROR:root:Epoch id: 2, Training steps: 250, ED loss:13.590303,TE loss:17.985880, AE loss:137.652780, T2A loss:0.142205, Ro loss:1.309208, Avg loss: 170.680375
+ERROR:root:Epoch id: 2, Training steps: 300, ED loss:12.069244,TE loss:16.801997, AE loss:132.485327, T2A loss:0.132445, Ro loss:1.214040, Avg loss: 162.703055
+ERROR:root:Epoch id: 2, Training steps: 350, ED loss:13.792057,TE loss:15.443031, AE loss:122.145332, T2A loss:0.131238, Ro loss:1.194246, Avg loss: 152.705903
+ERROR:root:Epoch id: 2, Training steps: 400, ED loss:11.948877,TE loss:13.742239, AE loss:127.623651, T2A loss:0.127383, Ro loss:1.140865, Avg loss: 154.583016
+ERROR:root:Epoch id: 2, Training steps: 450, ED loss:11.489415,TE loss:16.689717, AE loss:123.106004, T2A loss:0.128223, Ro loss:1.132791, Avg loss: 152.546150
+ERROR:root:Epoch id: 2, Training steps: 500, ED loss:11.761744,TE loss:14.292212, AE loss:122.740445, T2A loss:0.118065, Ro loss:1.122403, Avg loss: 150.034870
+ERROR:root:Epoch id: 2, Training steps: 550, ED loss:11.781921,TE loss:12.117121, AE loss:112.999030, T2A loss:0.120935, Ro loss:1.132952, Avg loss: 138.151959
+ERROR:root:Epoch id: 2, Training steps: 600, ED loss:10.981522,TE loss:16.703740, AE loss:112.801218, T2A loss:0.130910, Ro loss:1.181874, Avg loss: 141.799264
+ERROR:root:Epoch id: 2, Training steps: 650, ED loss:11.174959,TE loss:14.051037, AE loss:116.081722, T2A loss:0.130888, Ro loss:1.248802, Avg loss: 142.687408
+ERROR:root:Epoch id: 2, Training steps: 700, ED loss:11.045621,TE loss:13.758849, AE loss:104.920208, T2A loss:0.123154, Ro loss:1.172413, Avg loss: 131.020245
+ERROR:root:Epoch id: 2, Training steps: 750, ED loss:9.785476,TE loss:14.368794, AE loss:111.095108, T2A loss:0.121626, Ro loss:1.147601, Avg loss: 136.518605
+ERROR:root:Epoch id: 2, Training steps: 800, ED loss:9.188136,TE loss:12.943442, AE loss:102.645655, T2A loss:0.110615, Ro loss:1.049754, Avg loss: 125.937605
+ERROR:root:Epoch id: 2, Training steps: 850, ED loss:8.709831,TE loss:16.102106, AE loss:107.869097, T2A loss:0.117389, Ro loss:1.096067, Avg loss: 133.894490
+ERROR:root:Epoch id: 2, Training steps: 900, ED loss:9.290746,TE loss:16.005548, AE loss:101.650972, T2A loss:0.120425, Ro loss:1.085818, Avg loss: 128.153512
+ERROR:root:Epoch id: 2, Training steps: 950, ED loss:8.419619,TE loss:13.323422, AE loss:93.799543, T2A loss:0.115630, Ro loss:1.046226, Avg loss: 116.704439
+ERROR:root:Epoch id: 2, Training steps: 1000, ED loss:9.769240,TE loss:13.894164, AE loss:102.779352, T2A loss:0.110626, Ro loss:1.046779, Avg loss: 127.600161
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 2, Type P: 0.7184, Type R: 0.9261, Type F: 0.7945
+ERROR:root:Epoch id: 2, Trigger P: 0.8857, Trigger R: 0.8415, Trigger F: 0.8630
+ERROR:root:Epoch id: 2, Args P: 0.7276, Args R: 0.5254, Args F: 0.6102
+ERROR:root:Epoch id: 2, F1 Mean All: 0.7559
+ERROR:root:The Best F1 Is: 0.7559, When Epoch Is: 2, Path Is: ./models_save/epoch:2-2024-08-29-04-59-1724907581/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:95.1, R:66.4, F:78.2
+ERROR:root:TC: P:51.8, R:63.9, F:57.3
+ERROR:root:AI: P:0.0, R:0.0, F:0.0
+ERROR:root:AC: P:0.0, R:0.0, F:0.0
+ERROR:root:Training...
+ERROR:root:Epoch id: 3, Training steps: 50, ED loss:8.759032,TE loss:12.573461, AE loss:87.774977, T2A loss:0.119306, Ro loss:1.133304, Avg loss: 110.360078
+ERROR:root:Epoch id: 3, Training steps: 100, ED loss:9.304896,TE loss:13.037652, AE loss:83.431222, T2A loss:0.105067, Ro loss:1.061475, Avg loss: 106.940311
+ERROR:root:Epoch id: 3, Training steps: 150, ED loss:8.546568,TE loss:14.067918, AE loss:92.771915, T2A loss:0.109664, Ro loss:1.051949, Avg loss: 116.548015
+ERROR:root:Epoch id: 3, Training steps: 200, ED loss:7.058660,TE loss:11.435723, AE loss:78.486423, T2A loss:0.105382, Ro loss:1.039756, Avg loss: 98.125945
+ERROR:root:Epoch id: 3, Training steps: 250, ED loss:8.696972,TE loss:11.600530, AE loss:77.104371, T2A loss:0.106822, Ro loss:1.044053, Avg loss: 98.552749
+ERROR:root:Epoch id: 3, Training steps: 300, ED loss:7.871087,TE loss:10.707415, AE loss:79.817256, T2A loss:0.109983, Ro loss:1.122425, Avg loss: 99.628165
+ERROR:root:Epoch id: 3, Training steps: 350, ED loss:7.873173,TE loss:10.733042, AE loss:75.572389, T2A loss:0.103028, Ro loss:0.983357, Avg loss: 95.264990
+ERROR:root:Epoch id: 3, Training steps: 400, ED loss:8.759150,TE loss:12.548387, AE loss:80.519992, T2A loss:0.111045, Ro loss:1.001974, Avg loss: 102.940548
+ERROR:root:Epoch id: 3, Training steps: 450, ED loss:7.905955,TE loss:12.890715, AE loss:90.412863, T2A loss:0.114530, Ro loss:1.139607, Avg loss: 112.463670
+ERROR:root:Epoch id: 3, Training steps: 500, ED loss:7.133346,TE loss:10.319224, AE loss:76.127240, T2A loss:0.100413, Ro loss:1.020599, Avg loss: 94.700821
+ERROR:root:Epoch id: 3, Training steps: 550, ED loss:7.943519,TE loss:13.557281, AE loss:75.396953, T2A loss:0.101489, Ro loss:0.949949, Avg loss: 97.949192
+ERROR:root:Epoch id: 3, Training steps: 600, ED loss:8.802275,TE loss:13.359096, AE loss:73.581005, T2A loss:0.105310, Ro loss:1.057114, Avg loss: 96.904800
+ERROR:root:Epoch id: 3, Training steps: 650, ED loss:7.646702,TE loss:12.484694, AE loss:73.416276, T2A loss:0.102897, Ro loss:0.959130, Avg loss: 94.609698
+ERROR:root:Epoch id: 3, Training steps: 700, ED loss:8.216596,TE loss:11.161183, AE loss:70.482899, T2A loss:0.101279, Ro loss:1.008733, Avg loss: 90.970690
+ERROR:root:Epoch id: 3, Training steps: 750, ED loss:7.589262,TE loss:12.343474, AE loss:71.744897, T2A loss:0.104955, Ro loss:1.040789, Avg loss: 92.823377
+ERROR:root:Epoch id: 3, Training steps: 800, ED loss:6.591599,TE loss:12.107375, AE loss:69.852854, T2A loss:0.099967, Ro loss:1.007283, Avg loss: 89.659079
+ERROR:root:Epoch id: 3, Training steps: 850, ED loss:7.109887,TE loss:9.339239, AE loss:76.321923, T2A loss:0.096925, Ro loss:0.950733, Avg loss: 93.818708
+ERROR:root:Epoch id: 3, Training steps: 900, ED loss:7.463331,TE loss:9.497785, AE loss:71.018989, T2A loss:0.096166, Ro loss:0.997577, Avg loss: 89.073850
+ERROR:root:Epoch id: 3, Training steps: 950, ED loss:7.622788,TE loss:15.096782, AE loss:70.876655, T2A loss:0.108090, Ro loss:0.978288, Avg loss: 94.682602
+ERROR:root:Epoch id: 3, Training steps: 1000, ED loss:8.227816,TE loss:13.685285, AE loss:68.717812, T2A loss:0.103038, Ro loss:1.016584, Avg loss: 91.750534
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 3, Type P: 0.5800, Type R: 0.9712, Type F: 0.7109
+ERROR:root:Epoch id: 3, Trigger P: 0.8915, Trigger R: 0.8780, Trigger F: 0.8847
+ERROR:root:Epoch id: 3, Args P: 0.7476, Args R: 0.8051, Args F: 0.7753
+ERROR:root:Epoch id: 3, F1 Mean All: 0.7903
+ERROR:root:The Best F1 Is: 0.7903, When Epoch Is: 3, Path Is: ./models_save/epoch:3-2024-08-29-05-01-1724907704/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:94.7, R:77.5, F:85.2
+ERROR:root:TC: P:36.8, R:76.1, F:49.6
+ERROR:root:AI: P:43.0, R:15.4, F:22.7
+ERROR:root:AC: P:42.8, R:15.1, F:22.4
+ERROR:root:Training...
+ERROR:root:Epoch id: 4, Training steps: 50, ED loss:6.990673,TE loss:9.497343, AE loss:59.540017, T2A loss:0.100063, Ro loss:1.031469, Avg loss: 77.159566
+ERROR:root:Epoch id: 4, Training steps: 100, ED loss:6.483833,TE loss:10.047798, AE loss:55.321034, T2A loss:0.100235, Ro loss:0.985450, Avg loss: 72.938351
+ERROR:root:Epoch id: 4, Training steps: 150, ED loss:6.697136,TE loss:10.318564, AE loss:58.724735, T2A loss:0.091599, Ro loss:0.933877, Avg loss: 76.765911
+ERROR:root:Epoch id: 4, Training steps: 200, ED loss:7.069110,TE loss:9.350533, AE loss:58.123299, T2A loss:0.093001, Ro loss:0.989255, Avg loss: 75.625197
+ERROR:root:Epoch id: 4, Training steps: 250, ED loss:6.051737,TE loss:9.256889, AE loss:56.571373, T2A loss:0.097684, Ro loss:0.995267, Avg loss: 72.972950
+ERROR:root:Epoch id: 4, Training steps: 300, ED loss:6.317573,TE loss:8.236814, AE loss:55.039347, T2A loss:0.093937, Ro loss:0.945912, Avg loss: 70.633584
+ERROR:root:Epoch id: 4, Training steps: 350, ED loss:6.587704,TE loss:8.070336, AE loss:55.550598, T2A loss:0.096918, Ro loss:1.000564, Avg loss: 71.306122
+ERROR:root:Epoch id: 4, Training steps: 400, ED loss:7.054194,TE loss:9.612325, AE loss:59.904564, T2A loss:0.098534, Ro loss:1.011841, Avg loss: 77.681459
+ERROR:root:Epoch id: 4, Training steps: 450, ED loss:6.668333,TE loss:9.473741, AE loss:53.959869, T2A loss:0.098012, Ro loss:1.000681, Avg loss: 71.200636
+ERROR:root:Epoch id: 4, Training steps: 500, ED loss:6.465837,TE loss:9.446024, AE loss:54.052113, T2A loss:0.090965, Ro loss:0.888812, Avg loss: 70.943751
+ERROR:root:Epoch id: 4, Training steps: 550, ED loss:5.907384,TE loss:8.079756, AE loss:55.791002, T2A loss:0.084729, Ro loss:0.948755, Avg loss: 70.811626
+ERROR:root:Epoch id: 4, Training steps: 600, ED loss:6.495122,TE loss:10.396532, AE loss:59.154368, T2A loss:0.096282, Ro loss:0.986034, Avg loss: 77.128337
+ERROR:root:Epoch id: 4, Training steps: 650, ED loss:6.824267,TE loss:10.623246, AE loss:54.993295, T2A loss:0.098129, Ro loss:0.939893, Avg loss: 73.478829
+ERROR:root:Epoch id: 4, Training steps: 700, ED loss:6.534584,TE loss:10.304814, AE loss:61.786453, T2A loss:0.097490, Ro loss:1.014919, Avg loss: 79.738261
+ERROR:root:Epoch id: 4, Training steps: 750, ED loss:6.760418,TE loss:9.067802, AE loss:54.550909, T2A loss:0.089520, Ro loss:0.938937, Avg loss: 71.407585
+ERROR:root:Epoch id: 4, Training steps: 800, ED loss:7.018637,TE loss:10.568563, AE loss:52.720362, T2A loss:0.094596, Ro loss:0.905543, Avg loss: 71.307701
+ERROR:root:Epoch id: 4, Training steps: 850, ED loss:6.305567,TE loss:8.751901, AE loss:54.634809, T2A loss:0.092834, Ro loss:0.864026, Avg loss: 70.649135
+ERROR:root:Epoch id: 4, Training steps: 900, ED loss:7.617163,TE loss:10.143230, AE loss:56.271129, T2A loss:0.085182, Ro loss:0.835159, Avg loss: 74.951863
+ERROR:root:Epoch id: 4, Training steps: 950, ED loss:5.895060,TE loss:9.295513, AE loss:52.089083, T2A loss:0.083666, Ro loss:0.877393, Avg loss: 68.240715
+ERROR:root:Epoch id: 4, Training steps: 1000, ED loss:6.267439,TE loss:8.765194, AE loss:54.567386, T2A loss:0.088775, Ro loss:0.949241, Avg loss: 70.638035
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 4, Type P: 0.8238, Type R: 0.9035, Type F: 0.8538
+ERROR:root:Epoch id: 4, Trigger P: 0.8747, Trigger R: 0.8887, Trigger F: 0.8816
+ERROR:root:Epoch id: 4, Args P: 0.7613, Args R: 0.8520, Args F: 0.8041
+ERROR:root:Epoch id: 4, F1 Mean All: 0.8465
+ERROR:root:The Best F1 Is: 0.8465, When Epoch Is: 4, Path Is: ./models_save/epoch:4-2024-08-29-05-03-1724907834/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:93.8, R:80.4, F:86.6
+ERROR:root:TC: P:53.7, R:78.6, F:63.8
+ERROR:root:AI: P:56.3, R:67.2, F:61.3
+ERROR:root:AC: P:55.8, R:65.8, F:60.4
+ERROR:root:Training...
+ERROR:root:Epoch id: 5, Training steps: 50, ED loss:6.177326,TE loss:8.199483, AE loss:45.076877, T2A loss:0.086608, Ro loss:0.853278, Avg loss: 60.393572
+ERROR:root:Epoch id: 5, Training steps: 100, ED loss:6.506228,TE loss:7.811333, AE loss:44.584416, T2A loss:0.088133, Ro loss:0.884336, Avg loss: 59.874447
+ERROR:root:Epoch id: 5, Training steps: 150, ED loss:6.330362,TE loss:7.200021, AE loss:45.894914, T2A loss:0.087057, Ro loss:0.915344, Avg loss: 60.427699
+ERROR:root:Epoch id: 5, Training steps: 200, ED loss:6.773152,TE loss:6.637093, AE loss:49.217976, T2A loss:0.086502, Ro loss:0.918447, Avg loss: 63.633169
+ERROR:root:Epoch id: 5, Training steps: 250, ED loss:6.694849,TE loss:8.726001, AE loss:42.974162, T2A loss:0.089267, Ro loss:0.907699, Avg loss: 59.391978
+ERROR:root:Epoch id: 5, Training steps: 300, ED loss:5.902537,TE loss:7.624196, AE loss:39.599364, T2A loss:0.083670, Ro loss:0.872123, Avg loss: 54.081891
+ERROR:root:Epoch id: 5, Training steps: 350, ED loss:5.868192,TE loss:7.012490, AE loss:43.891791, T2A loss:0.085384, Ro loss:0.947176, Avg loss: 57.805033
+ERROR:root:Epoch id: 5, Training steps: 400, ED loss:5.417768,TE loss:8.248588, AE loss:49.832529, T2A loss:0.087652, Ro loss:0.895135, Avg loss: 64.481672
+ERROR:root:Epoch id: 5, Training steps: 450, ED loss:4.390338,TE loss:10.538201, AE loss:43.688927, T2A loss:0.084560, Ro loss:0.847386, Avg loss: 59.549413
+ERROR:root:Epoch id: 5, Training steps: 500, ED loss:6.195521,TE loss:8.767036, AE loss:44.589579, T2A loss:0.084447, Ro loss:0.853523, Avg loss: 60.490106
+ERROR:root:Epoch id: 5, Training steps: 550, ED loss:6.490799,TE loss:8.055724, AE loss:42.505026, T2A loss:0.091116, Ro loss:0.926009, Avg loss: 58.068674
+ERROR:root:Epoch id: 5, Training steps: 600, ED loss:5.561906,TE loss:7.715327, AE loss:40.534951, T2A loss:0.081913, Ro loss:0.867777, Avg loss: 54.761874
+ERROR:root:Epoch id: 5, Training steps: 650, ED loss:5.887744,TE loss:7.953322, AE loss:43.484892, T2A loss:0.086869, Ro loss:0.871152, Avg loss: 58.283979
+ERROR:root:Epoch id: 5, Training steps: 700, ED loss:5.765068,TE loss:8.609696, AE loss:49.425129, T2A loss:0.092491, Ro loss:0.958994, Avg loss: 64.851377
+ERROR:root:Epoch id: 5, Training steps: 750, ED loss:5.730239,TE loss:6.788142, AE loss:41.488268, T2A loss:0.084609, Ro loss:0.855476, Avg loss: 54.946733
+ERROR:root:Epoch id: 5, Training steps: 800, ED loss:6.191124,TE loss:5.647039, AE loss:42.442217, T2A loss:0.084669, Ro loss:0.899227, Avg loss: 55.264276
+ERROR:root:Epoch id: 5, Training steps: 850, ED loss:5.607944,TE loss:7.671042, AE loss:43.335380, T2A loss:0.085024, Ro loss:0.873314, Avg loss: 57.572705
+ERROR:root:Epoch id: 5, Training steps: 900, ED loss:5.650734,TE loss:6.375012, AE loss:47.329535, T2A loss:0.084860, Ro loss:0.927705, Avg loss: 60.367845
+ERROR:root:Epoch id: 5, Training steps: 950, ED loss:5.388917,TE loss:7.789495, AE loss:43.332093, T2A loss:0.086124, Ro loss:0.892745, Avg loss: 57.489374
+ERROR:root:Epoch id: 5, Training steps: 1000, ED loss:5.887903,TE loss:7.858526, AE loss:41.356441, T2A loss:0.085090, Ro loss:0.882292, Avg loss: 56.070253
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 5, Type P: 0.8658, Type R: 0.9029, Type F: 0.8679
+ERROR:root:Epoch id: 5, Trigger P: 0.8719, Trigger R: 0.9092, Trigger F: 0.8901
+ERROR:root:Epoch id: 5, Args P: 0.7918, Args R: 0.8408, Args F: 0.8155
+ERROR:root:Epoch id: 5, F1 Mean All: 0.8579
+ERROR:root:The Best F1 Is: 0.8579, When Epoch Is: 5, Path Is: ./models_save/epoch:5-2024-08-29-05-05-1724907955/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.7, R:83.8, F:87.6
+ERROR:root:TC: P:70.8, R:79.2, F:74.8
+ERROR:root:AI: P:66.0, R:70.0, F:67.9
+ERROR:root:AC: P:65.2, R:68.4, F:66.7
+ERROR:root:Training...
+ERROR:root:Epoch id: 6, Training steps: 50, ED loss:4.660736,TE loss:7.060778, AE loss:36.580976, T2A loss:0.079984, Ro loss:0.796502, Avg loss: 49.178976
+ERROR:root:Epoch id: 6, Training steps: 100, ED loss:5.134991,TE loss:7.285255, AE loss:34.711180, T2A loss:0.083031, Ro loss:0.841537, Avg loss: 48.055996
+ERROR:root:Epoch id: 6, Training steps: 150, ED loss:5.451216,TE loss:4.905186, AE loss:31.639627, T2A loss:0.076022, Ro loss:0.891486, Avg loss: 42.963537
+ERROR:root:Epoch id: 6, Training steps: 200, ED loss:5.270983,TE loss:4.734689, AE loss:34.878564, T2A loss:0.080579, Ro loss:0.863504, Avg loss: 45.828319
+ERROR:root:Epoch id: 6, Training steps: 250, ED loss:4.296830,TE loss:5.510870, AE loss:35.808292, T2A loss:0.083097, Ro loss:0.905630, Avg loss: 46.604719
+ERROR:root:Epoch id: 6, Training steps: 300, ED loss:4.354898,TE loss:5.729858, AE loss:32.787186, T2A loss:0.078373, Ro loss:0.799982, Avg loss: 43.750298
+ERROR:root:Epoch id: 6, Training steps: 350, ED loss:5.607989,TE loss:6.884644, AE loss:37.645091, T2A loss:0.079497, Ro loss:0.815952, Avg loss: 51.033172
+ERROR:root:Epoch id: 6, Training steps: 400, ED loss:5.487074,TE loss:6.983480, AE loss:41.726506, T2A loss:0.081975, Ro loss:0.863349, Avg loss: 55.142384
+ERROR:root:Epoch id: 6, Training steps: 450, ED loss:4.912388,TE loss:5.528267, AE loss:38.596365, T2A loss:0.079941, Ro loss:0.844369, Avg loss: 49.961329
+ERROR:root:Epoch id: 6, Training steps: 500, ED loss:4.938655,TE loss:7.059239, AE loss:34.850376, T2A loss:0.077324, Ro loss:0.834090, Avg loss: 47.759682
+ERROR:root:Epoch id: 6, Training steps: 550, ED loss:6.169295,TE loss:7.308880, AE loss:38.023723, T2A loss:0.081108, Ro loss:0.819435, Avg loss: 52.402441
+ERROR:root:Epoch id: 6, Training steps: 600, ED loss:5.247738,TE loss:6.960899, AE loss:38.621631, T2A loss:0.084075, Ro loss:0.837255, Avg loss: 51.751599
+ERROR:root:Epoch id: 6, Training steps: 650, ED loss:5.625389,TE loss:8.371985, AE loss:40.458542, T2A loss:0.081300, Ro loss:0.871302, Avg loss: 55.408517
+ERROR:root:Epoch id: 6, Training steps: 700, ED loss:6.156628,TE loss:6.830537, AE loss:37.956188, T2A loss:0.085071, Ro loss:0.824017, Avg loss: 51.852439
+ERROR:root:Epoch id: 6, Training steps: 750, ED loss:5.689240,TE loss:4.641059, AE loss:32.912095, T2A loss:0.078462, Ro loss:0.890343, Avg loss: 44.211199
+ERROR:root:Epoch id: 6, Training steps: 800, ED loss:4.957927,TE loss:7.351343, AE loss:36.511023, T2A loss:0.074589, Ro loss:0.836311, Avg loss: 49.731194
+ERROR:root:Epoch id: 6, Training steps: 850, ED loss:5.754661,TE loss:5.876431, AE loss:36.282518, T2A loss:0.082585, Ro loss:0.837164, Avg loss: 48.833359
+ERROR:root:Epoch id: 6, Training steps: 900, ED loss:4.933604,TE loss:6.962285, AE loss:40.891433, T2A loss:0.080205, Ro loss:0.838674, Avg loss: 53.706201
+ERROR:root:Epoch id: 6, Training steps: 950, ED loss:5.437891,TE loss:6.297827, AE loss:34.929705, T2A loss:0.081665, Ro loss:0.864052, Avg loss: 47.611139
+ERROR:root:Epoch id: 6, Training steps: 1000, ED loss:5.797131,TE loss:7.093469, AE loss:35.289618, T2A loss:0.082654, Ro loss:0.868060, Avg loss: 49.130933
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 6, Type P: 0.8268, Type R: 0.9273, Type F: 0.8613
+ERROR:root:Epoch id: 6, Trigger P: 0.9060, Trigger R: 0.8842, Trigger F: 0.8950
+ERROR:root:Epoch id: 6, Args P: 0.8100, Args R: 0.8428, Args F: 0.8261
+ERROR:root:Epoch id: 6, F1 Mean All: 0.8608
+ERROR:root:The Best F1 Is: 0.8608, When Epoch Is: 6, Path Is: ./models_save/epoch:6-2024-08-29-05-07-1724908074/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:94.4, R:82.0, F:87.7
+ERROR:root:TC: P:62.9, R:80.0, F:70.4
+ERROR:root:AI: P:61.2, R:77.6, F:68.4
+ERROR:root:AC: P:60.4, R:75.8, F:67.2
+ERROR:root:Training...
+ERROR:root:Epoch id: 7, Training steps: 50, ED loss:4.372028,TE loss:4.104686, AE loss:27.884133, T2A loss:0.073101, Ro loss:0.776709, Avg loss: 37.210657
+ERROR:root:Epoch id: 7, Training steps: 100, ED loss:4.274181,TE loss:3.996035, AE loss:31.540699, T2A loss:0.076631, Ro loss:0.803355, Avg loss: 40.690903
+ERROR:root:Epoch id: 7, Training steps: 150, ED loss:4.482515,TE loss:5.208637, AE loss:32.267228, T2A loss:0.081258, Ro loss:0.860885, Avg loss: 42.900524
+ERROR:root:Epoch id: 7, Training steps: 200, ED loss:4.417190,TE loss:4.727825, AE loss:31.934358, T2A loss:0.076644, Ro loss:0.816965, Avg loss: 41.972981
+ERROR:root:Epoch id: 7, Training steps: 250, ED loss:5.232939,TE loss:4.755354, AE loss:29.389571, T2A loss:0.075318, Ro loss:0.767840, Avg loss: 40.221021
+ERROR:root:Epoch id: 7, Training steps: 300, ED loss:5.254383,TE loss:5.782985, AE loss:27.201638, T2A loss:0.075562, Ro loss:0.814560, Avg loss: 39.129127
+ERROR:root:Epoch id: 7, Training steps: 350, ED loss:4.835481,TE loss:5.142559, AE loss:31.267674, T2A loss:0.081452, Ro loss:0.902994, Avg loss: 42.230159
+ERROR:root:Epoch id: 7, Training steps: 400, ED loss:4.865917,TE loss:6.745199, AE loss:30.636891, T2A loss:0.075167, Ro loss:0.788456, Avg loss: 43.111632
+ERROR:root:Epoch id: 7, Training steps: 450, ED loss:5.172902,TE loss:6.099693, AE loss:30.736092, T2A loss:0.075558, Ro loss:0.818007, Avg loss: 42.902252
+ERROR:root:Epoch id: 7, Training steps: 500, ED loss:4.156353,TE loss:4.823133, AE loss:30.885040, T2A loss:0.073120, Ro loss:0.780050, Avg loss: 40.717696
+ERROR:root:Epoch id: 7, Training steps: 550, ED loss:4.955179,TE loss:7.009441, AE loss:35.576754, T2A loss:0.085636, Ro loss:0.847824, Avg loss: 48.474834
+ERROR:root:Epoch id: 7, Training steps: 600, ED loss:4.309695,TE loss:7.155966, AE loss:31.602677, T2A loss:0.081565, Ro loss:0.775545, Avg loss: 43.925447
+ERROR:root:Epoch id: 7, Training steps: 650, ED loss:4.701892,TE loss:4.508730, AE loss:31.925392, T2A loss:0.079885, Ro loss:0.883142, Avg loss: 42.099042
+ERROR:root:Epoch id: 7, Training steps: 700, ED loss:4.612410,TE loss:5.119533, AE loss:33.629380, T2A loss:0.073857, Ro loss:0.767526, Avg loss: 44.202706
+ERROR:root:Epoch id: 7, Training steps: 750, ED loss:5.455307,TE loss:4.015107, AE loss:34.626019, T2A loss:0.074925, Ro loss:0.823694, Avg loss: 44.995052
+ERROR:root:Epoch id: 7, Training steps: 800, ED loss:5.073100,TE loss:5.921726, AE loss:33.461228, T2A loss:0.076964, Ro loss:0.792339, Avg loss: 45.325358
+ERROR:root:Epoch id: 7, Training steps: 850, ED loss:4.218718,TE loss:5.726386, AE loss:30.259478, T2A loss:0.075663, Ro loss:0.790259, Avg loss: 41.070503
+ERROR:root:Epoch id: 7, Training steps: 900, ED loss:4.567560,TE loss:6.977580, AE loss:32.333604, T2A loss:0.072838, Ro loss:0.783933, Avg loss: 44.735516
+ERROR:root:Epoch id: 7, Training steps: 950, ED loss:4.370494,TE loss:5.887439, AE loss:35.119830, T2A loss:0.074265, Ro loss:0.862038, Avg loss: 46.314065
+ERROR:root:Epoch id: 7, Training steps: 1000, ED loss:5.582253,TE loss:5.161924, AE loss:33.478149, T2A loss:0.075258, Ro loss:0.808169, Avg loss: 45.105753
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 7, Type P: 0.8134, Type R: 0.9257, Type F: 0.8619
+ERROR:root:Epoch id: 7, Trigger P: 0.8777, Trigger R: 0.8887, Trigger F: 0.8832
+ERROR:root:Epoch id: 7, Args P: 0.7895, Args R: 0.8594, Args F: 0.8229
+ERROR:root:Epoch id: 7, F1 Mean All: 0.8560
+ERROR:root:The Best F1 Is: 0.8608, When Epoch Is: 6, Path Is: ./models_save/epoch:6-2024-08-29-05-07-1724908074/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.3, R:86.5, F:88.8
+ERROR:root:TC: P:63.0, R:84.0, F:72.0
+ERROR:root:AI: P:62.3, R:80.0, F:70.0
+ERROR:root:AC: P:61.3, R:78.1, F:68.7
+ERROR:root:Training...
+ERROR:root:Epoch id: 8, Training steps: 50, ED loss:4.417739,TE loss:3.439832, AE loss:26.279798, T2A loss:0.071040, Ro loss:0.796474, Avg loss: 35.004883
+ERROR:root:Epoch id: 8, Training steps: 100, ED loss:4.107834,TE loss:3.599860, AE loss:22.402097, T2A loss:0.076768, Ro loss:0.772560, Avg loss: 30.959118
+ERROR:root:Epoch id: 8, Training steps: 150, ED loss:3.860295,TE loss:3.928489, AE loss:27.355062, T2A loss:0.074116, Ro loss:0.779266, Avg loss: 35.997229
+ERROR:root:Epoch id: 8, Training steps: 200, ED loss:4.854231,TE loss:3.951326, AE loss:29.581000, T2A loss:0.075084, Ro loss:0.824407, Avg loss: 39.286049
+ERROR:root:Epoch id: 8, Training steps: 250, ED loss:4.478387,TE loss:4.188435, AE loss:26.961094, T2A loss:0.077458, Ro loss:0.847606, Avg loss: 36.552981
+ERROR:root:Epoch id: 8, Training steps: 300, ED loss:4.771273,TE loss:4.764104, AE loss:26.519457, T2A loss:0.072690, Ro loss:0.753654, Avg loss: 36.881178
+ERROR:root:Epoch id: 8, Training steps: 350, ED loss:3.723747,TE loss:4.376976, AE loss:25.874873, T2A loss:0.076340, Ro loss:0.818550, Avg loss: 34.870486
+ERROR:root:Epoch id: 8, Training steps: 400, ED loss:4.335444,TE loss:4.186733, AE loss:25.649711, T2A loss:0.068996, Ro loss:0.734897, Avg loss: 34.975781
+ERROR:root:Epoch id: 8, Training steps: 450, ED loss:3.595746,TE loss:4.296670, AE loss:24.803356, T2A loss:0.074613, Ro loss:0.781309, Avg loss: 33.551695
+ERROR:root:Epoch id: 8, Training steps: 500, ED loss:4.254399,TE loss:5.328149, AE loss:25.471976, T2A loss:0.067865, Ro loss:0.755368, Avg loss: 35.877758
+ERROR:root:Epoch id: 8, Training steps: 550, ED loss:4.665418,TE loss:4.831891, AE loss:25.423861, T2A loss:0.078379, Ro loss:0.807156, Avg loss: 35.806704
+ERROR:root:Epoch id: 8, Training steps: 600, ED loss:4.091932,TE loss:4.469917, AE loss:27.773373, T2A loss:0.069838, Ro loss:0.774620, Avg loss: 37.179681
+ERROR:root:Epoch id: 8, Training steps: 650, ED loss:4.338254,TE loss:5.673423, AE loss:27.456258, T2A loss:0.069017, Ro loss:0.718633, Avg loss: 38.255584
+ERROR:root:Epoch id: 8, Training steps: 700, ED loss:4.244886,TE loss:6.238042, AE loss:34.129751, T2A loss:0.079183, Ro loss:0.792443, Avg loss: 45.484305
+ERROR:root:Epoch id: 8, Training steps: 750, ED loss:4.838893,TE loss:4.775135, AE loss:26.894827, T2A loss:0.073763, Ro loss:0.810727, Avg loss: 37.393346
+ERROR:root:Epoch id: 8, Training steps: 800, ED loss:3.574469,TE loss:5.006744, AE loss:34.513355, T2A loss:0.075732, Ro loss:0.786382, Avg loss: 43.956681
+ERROR:root:Epoch id: 8, Training steps: 850, ED loss:3.827431,TE loss:4.542538, AE loss:31.102834, T2A loss:0.068071, Ro loss:0.749029, Avg loss: 40.289903
+ERROR:root:Epoch id: 8, Training steps: 900, ED loss:4.716945,TE loss:5.551940, AE loss:29.603358, T2A loss:0.071473, Ro loss:0.788928, Avg loss: 40.732645
+ERROR:root:Epoch id: 8, Training steps: 950, ED loss:3.966965,TE loss:5.214964, AE loss:24.532288, T2A loss:0.071163, Ro loss:0.742508, Avg loss: 34.527888
+ERROR:root:Epoch id: 8, Training steps: 1000, ED loss:4.456350,TE loss:4.459101, AE loss:26.637922, T2A loss:0.070767, Ro loss:0.777391, Avg loss: 36.401531
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 8, Type P: 0.7604, Type R: 0.9307, Type F: 0.8305
+ERROR:root:Epoch id: 8, Trigger P: 0.9291, Trigger R: 0.8513, Trigger F: 0.8885
+ERROR:root:Epoch id: 8, Args P: 0.8216, Args R: 0.8381, Args F: 0.8298
+ERROR:root:Epoch id: 8, F1 Mean All: 0.8496
+ERROR:root:The Best F1 Is: 0.8608, When Epoch Is: 6, Path Is: ./models_save/epoch:6-2024-08-29-05-07-1724908074/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:94.9, R:76.2, F:84.5
+ERROR:root:TC: P:59.1, R:73.9, F:65.7
+ERROR:root:AI: P:61.5, R:79.2, F:69.2
+ERROR:root:AC: P:60.7, R:77.6, F:68.1
+ERROR:root:Training...
+ERROR:root:Epoch id: 9, Training steps: 50, ED loss:3.080637,TE loss:2.929259, AE loss:21.529658, T2A loss:0.068670, Ro loss:0.776259, Avg loss: 28.384483
+ERROR:root:Epoch id: 9, Training steps: 100, ED loss:3.360730,TE loss:3.779256, AE loss:21.258065, T2A loss:0.072780, Ro loss:0.771047, Avg loss: 29.241877
+ERROR:root:Epoch id: 9, Training steps: 150, ED loss:4.106849,TE loss:3.976535, AE loss:21.857588, T2A loss:0.070751, Ro loss:0.717593, Avg loss: 30.729316
+ERROR:root:Epoch id: 9, Training steps: 200, ED loss:3.960928,TE loss:4.122078, AE loss:27.442516, T2A loss:0.075987, Ro loss:0.798111, Avg loss: 36.399620
+ERROR:root:Epoch id: 9, Training steps: 250, ED loss:3.629490,TE loss:3.029503, AE loss:24.959838, T2A loss:0.069609, Ro loss:0.777854, Avg loss: 32.466294
+ERROR:root:Epoch id: 9, Training steps: 300, ED loss:3.692567,TE loss:4.048027, AE loss:24.091168, T2A loss:0.071174, Ro loss:0.784841, Avg loss: 32.687778
+ERROR:root:Epoch id: 9, Training steps: 350, ED loss:3.208598,TE loss:4.572655, AE loss:24.989125, T2A loss:0.069044, Ro loss:0.765916, Avg loss: 33.605338
+ERROR:root:Epoch id: 9, Training steps: 400, ED loss:3.782166,TE loss:4.063728, AE loss:28.161642, T2A loss:0.069077, Ro loss:0.778893, Avg loss: 36.855506
+ERROR:root:Epoch id: 9, Training steps: 450, ED loss:3.270962,TE loss:3.211484, AE loss:20.986428, T2A loss:0.070478, Ro loss:0.757718, Avg loss: 28.297070
+ERROR:root:Epoch id: 9, Training steps: 500, ED loss:3.357288,TE loss:4.461807, AE loss:25.847400, T2A loss:0.066475, Ro loss:0.741305, Avg loss: 34.474274
+ERROR:root:Epoch id: 9, Training steps: 550, ED loss:3.780649,TE loss:3.489449, AE loss:22.591558, T2A loss:0.071482, Ro loss:0.727178, Avg loss: 30.660316
+ERROR:root:Epoch id: 9, Training steps: 600, ED loss:3.813649,TE loss:3.819201, AE loss:23.399044, T2A loss:0.067363, Ro loss:0.754095, Avg loss: 31.853353
+ERROR:root:Epoch id: 9, Training steps: 650, ED loss:3.506096,TE loss:3.921546, AE loss:24.301586, T2A loss:0.071141, Ro loss:0.759676, Avg loss: 32.560045
+ERROR:root:Epoch id: 9, Training steps: 700, ED loss:3.920710,TE loss:3.947907, AE loss:22.385927, T2A loss:0.067520, Ro loss:0.786132, Avg loss: 31.108197
+ERROR:root:Epoch id: 9, Training steps: 750, ED loss:3.441932,TE loss:4.111174, AE loss:23.833164, T2A loss:0.067478, Ro loss:0.745078, Avg loss: 32.198826
+ERROR:root:Epoch id: 9, Training steps: 800, ED loss:3.540340,TE loss:3.003011, AE loss:22.725315, T2A loss:0.065433, Ro loss:0.751108, Avg loss: 30.085207
+ERROR:root:Epoch id: 9, Training steps: 850, ED loss:3.893872,TE loss:5.044648, AE loss:26.525149, T2A loss:0.074916, Ro loss:0.767206, Avg loss: 36.305791
+ERROR:root:Epoch id: 9, Training steps: 900, ED loss:3.259732,TE loss:4.788283, AE loss:23.539353, T2A loss:0.066803, Ro loss:0.712313, Avg loss: 32.366484
+ERROR:root:Epoch id: 9, Training steps: 950, ED loss:3.587006,TE loss:5.698572, AE loss:23.055136, T2A loss:0.069220, Ro loss:0.769110, Avg loss: 33.179044
+ERROR:root:Epoch id: 9, Training steps: 1000, ED loss:4.430164,TE loss:4.068013, AE loss:28.061642, T2A loss:0.070855, Ro loss:0.759952, Avg loss: 37.390625
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 9, Type P: 0.8862, Type R: 0.8949, Type F: 0.8781
+ERROR:root:Epoch id: 9, Trigger P: 0.9174, Trigger R: 0.8709, Trigger F: 0.8936
+ERROR:root:Epoch id: 9, Args P: 0.8069, Args R: 0.8483, Args F: 0.8271
+ERROR:root:Epoch id: 9, F1 Mean All: 0.8663
+ERROR:root:The Best F1 Is: 0.8663, When Epoch Is: 9, Path Is: ./models_save/epoch:9-2024-08-29-05-13-1724908436/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:93.5, R:81.8, F:87.2
+ERROR:root:TC: P:77.7, R:76.7, F:77.2
+ERROR:root:AI: P:71.0, R:77.0, F:73.9
+ERROR:root:AC: P:69.8, R:75.0, F:72.3
+ERROR:root:Training...
+ERROR:root:Epoch id: 10, Training steps: 50, ED loss:3.134728,TE loss:2.995600, AE loss:23.179907, T2A loss:0.067309, Ro loss:0.728070, Avg loss: 30.105615
+ERROR:root:Epoch id: 10, Training steps: 100, ED loss:3.411129,TE loss:3.096368, AE loss:19.596907, T2A loss:0.066901, Ro loss:0.719116, Avg loss: 26.890422
+ERROR:root:Epoch id: 10, Training steps: 150, ED loss:3.193355,TE loss:2.926210, AE loss:22.793718, T2A loss:0.069789, Ro loss:0.775842, Avg loss: 29.758914
+ERROR:root:Epoch id: 10, Training steps: 200, ED loss:3.192436,TE loss:4.986201, AE loss:21.543982, T2A loss:0.073225, Ro loss:0.762853, Avg loss: 30.558696
+ERROR:root:Epoch id: 10, Training steps: 250, ED loss:3.294149,TE loss:2.094679, AE loss:19.684832, T2A loss:0.064341, Ro loss:0.764569, Avg loss: 25.902569
+ERROR:root:Epoch id: 10, Training steps: 300, ED loss:3.268420,TE loss:4.335706, AE loss:18.875178, T2A loss:0.070475, Ro loss:0.726637, Avg loss: 27.276416
+ERROR:root:Epoch id: 10, Training steps: 350, ED loss:2.809772,TE loss:3.078836, AE loss:25.057192, T2A loss:0.070723, Ro loss:0.817167, Avg loss: 31.833690
+ERROR:root:Epoch id: 10, Training steps: 400, ED loss:3.773463,TE loss:4.136821, AE loss:21.976552, T2A loss:0.066710, Ro loss:0.755748, Avg loss: 30.709295
+ERROR:root:Epoch id: 10, Training steps: 450, ED loss:2.945385,TE loss:2.792240, AE loss:19.823812, T2A loss:0.066725, Ro loss:0.726513, Avg loss: 26.354674
+ERROR:root:Epoch id: 10, Training steps: 500, ED loss:3.268794,TE loss:3.539618, AE loss:21.845015, T2A loss:0.063753, Ro loss:0.692392, Avg loss: 29.409571
+ERROR:root:Epoch id: 10, Training steps: 550, ED loss:2.963349,TE loss:3.086278, AE loss:22.480700, T2A loss:0.065707, Ro loss:0.752667, Avg loss: 29.348700
+ERROR:root:Epoch id: 10, Training steps: 600, ED loss:3.705289,TE loss:3.498254, AE loss:20.033937, T2A loss:0.064472, Ro loss:0.692173, Avg loss: 27.994125
+ERROR:root:Epoch id: 10, Training steps: 650, ED loss:2.688189,TE loss:3.752502, AE loss:22.431561, T2A loss:0.067306, Ro loss:0.770379, Avg loss: 29.709938
+ERROR:root:Epoch id: 10, Training steps: 700, ED loss:3.399005,TE loss:3.886932, AE loss:21.659618, T2A loss:0.070842, Ro loss:0.708431, Avg loss: 29.724828
+ERROR:root:Epoch id: 10, Training steps: 750, ED loss:2.906503,TE loss:3.877854, AE loss:25.095842, T2A loss:0.064181, Ro loss:0.684068, Avg loss: 32.628449
+ERROR:root:Epoch id: 10, Training steps: 800, ED loss:3.130718,TE loss:3.415406, AE loss:20.258944, T2A loss:0.067220, Ro loss:0.721900, Avg loss: 27.594188
+ERROR:root:Epoch id: 10, Training steps: 850, ED loss:3.062471,TE loss:4.047273, AE loss:22.908899, T2A loss:0.069084, Ro loss:0.775698, Avg loss: 30.863426
+ERROR:root:Epoch id: 10, Training steps: 900, ED loss:3.399859,TE loss:4.984541, AE loss:22.580428, T2A loss:0.070763, Ro loss:0.745149, Avg loss: 31.780740
+ERROR:root:Epoch id: 10, Training steps: 950, ED loss:2.464333,TE loss:3.009868, AE loss:19.932329, T2A loss:0.067405, Ro loss:0.709253, Avg loss: 26.183188
+ERROR:root:Epoch id: 10, Training steps: 1000, ED loss:3.426547,TE loss:3.236012, AE loss:23.512204, T2A loss:0.065678, Ro loss:0.716120, Avg loss: 30.956561
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 10, Type P: 0.8251, Type R: 0.9317, Type F: 0.8722
+ERROR:root:Epoch id: 10, Trigger P: 0.8678, Trigger R: 0.9003, Trigger F: 0.8837
+ERROR:root:Epoch id: 10, Args P: 0.8146, Args R: 0.8434, Args F: 0.8287
+ERROR:root:Epoch id: 10, F1 Mean All: 0.8615
+ERROR:root:The Best F1 Is: 0.8663, When Epoch Is: 9, Path Is: ./models_save/epoch:9-2024-08-29-05-13-1724908436/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:89.4, R:89.0, F:89.2
+ERROR:root:TC: P:67.5, R:87.0, F:76.0
+ERROR:root:AI: P:65.9, R:82.1, F:73.1
+ERROR:root:AC: P:65.1, R:80.5, F:71.9
+ERROR:root:Training...
+ERROR:root:Epoch id: 11, Training steps: 50, ED loss:2.707968,TE loss:2.388479, AE loss:18.675691, T2A loss:0.061226, Ro loss:0.691161, Avg loss: 24.524524
+ERROR:root:Epoch id: 11, Training steps: 100, ED loss:2.701095,TE loss:2.578516, AE loss:19.218265, T2A loss:0.063606, Ro loss:0.709954, Avg loss: 25.271436
+ERROR:root:Epoch id: 11, Training steps: 150, ED loss:2.380910,TE loss:2.363385, AE loss:18.895049, T2A loss:0.069120, Ro loss:0.730895, Avg loss: 24.439359
+ERROR:root:Epoch id: 11, Training steps: 200, ED loss:2.823744,TE loss:2.819781, AE loss:16.494756, T2A loss:0.062748, Ro loss:0.698409, Avg loss: 22.899438
+ERROR:root:Epoch id: 11, Training steps: 250, ED loss:3.252240,TE loss:2.565273, AE loss:15.174078, T2A loss:0.066507, Ro loss:0.683784, Avg loss: 21.741883
+ERROR:root:Epoch id: 11, Training steps: 300, ED loss:2.554652,TE loss:2.827478, AE loss:17.692078, T2A loss:0.060010, Ro loss:0.702645, Avg loss: 23.836863
+ERROR:root:Epoch id: 11, Training steps: 350, ED loss:3.081126,TE loss:3.084208, AE loss:26.696709, T2A loss:0.066387, Ro loss:0.790779, Avg loss: 33.719209
+ERROR:root:Epoch id: 11, Training steps: 400, ED loss:3.141509,TE loss:3.889794, AE loss:19.630290, T2A loss:0.072671, Ro loss:0.757407, Avg loss: 27.491672
+ERROR:root:Epoch id: 11, Training steps: 450, ED loss:2.587637,TE loss:3.266270, AE loss:18.003974, T2A loss:0.064164, Ro loss:0.696301, Avg loss: 24.618345
+ERROR:root:Epoch id: 11, Training steps: 500, ED loss:2.333923,TE loss:2.747879, AE loss:17.168808, T2A loss:0.063965, Ro loss:0.673592, Avg loss: 22.988167
+ERROR:root:Epoch id: 11, Training steps: 550, ED loss:2.556078,TE loss:2.882823, AE loss:17.939618, T2A loss:0.063736, Ro loss:0.720578, Avg loss: 24.162833
+ERROR:root:Epoch id: 11, Training steps: 600, ED loss:2.917291,TE loss:3.451062, AE loss:21.764005, T2A loss:0.064293, Ro loss:0.734846, Avg loss: 28.931497
+ERROR:root:Epoch id: 11, Training steps: 650, ED loss:2.648192,TE loss:3.769759, AE loss:22.098239, T2A loss:0.065008, Ro loss:0.709843, Avg loss: 29.291040
+ERROR:root:Epoch id: 11, Training steps: 700, ED loss:2.521593,TE loss:3.314503, AE loss:17.937983, T2A loss:0.062671, Ro loss:0.699086, Avg loss: 24.535836
+ERROR:root:Epoch id: 11, Training steps: 750, ED loss:2.314718,TE loss:2.846763, AE loss:18.000084, T2A loss:0.062626, Ro loss:0.690964, Avg loss: 23.915155
+ERROR:root:Epoch id: 11, Training steps: 800, ED loss:3.178526,TE loss:2.434568, AE loss:16.976769, T2A loss:0.062048, Ro loss:0.706347, Avg loss: 23.358257
+ERROR:root:Epoch id: 11, Training steps: 850, ED loss:2.399160,TE loss:2.786920, AE loss:22.487741, T2A loss:0.067935, Ro loss:0.780661, Avg loss: 28.522418
+ERROR:root:Epoch id: 11, Training steps: 900, ED loss:2.547538,TE loss:3.007162, AE loss:21.080393, T2A loss:0.061953, Ro loss:0.677923, Avg loss: 27.374969
+ERROR:root:Epoch id: 11, Training steps: 950, ED loss:2.613055,TE loss:3.785769, AE loss:16.895245, T2A loss:0.063003, Ro loss:0.698289, Avg loss: 24.055360
+ERROR:root:Epoch id: 11, Training steps: 1000, ED loss:2.527810,TE loss:3.917327, AE loss:23.931955, T2A loss:0.067525, Ro loss:0.731154, Avg loss: 31.175772
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 11, Type P: 0.8077, Type R: 0.9350, Type F: 0.8619
+ERROR:root:Epoch id: 11, Trigger P: 0.9071, Trigger R: 0.8780, Trigger F: 0.8923
+ERROR:root:Epoch id: 11, Args P: 0.8248, Args R: 0.8334, Args F: 0.8291
+ERROR:root:Epoch id: 11, F1 Mean All: 0.8611
+ERROR:root:The Best F1 Is: 0.8663, When Epoch Is: 9, Path Is: ./models_save/epoch:9-2024-08-29-05-13-1724908436/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.9, R:85.8, F:88.7
+ERROR:root:TC: P:65.9, R:82.0, F:73.0
+ERROR:root:AI: P:65.6, R:77.5, F:71.1
+ERROR:root:AC: P:64.7, R:76.0, F:69.9
+ERROR:root:Training...
+ERROR:root:Epoch id: 12, Training steps: 50, ED loss:2.631078,TE loss:2.523803, AE loss:19.026574, T2A loss:0.069375, Ro loss:0.781589, Avg loss: 25.032419
+ERROR:root:Epoch id: 12, Training steps: 100, ED loss:1.690873,TE loss:3.131949, AE loss:17.320919, T2A loss:0.065900, Ro loss:0.738213, Avg loss: 22.947855
+ERROR:root:Epoch id: 12, Training steps: 150, ED loss:2.916463,TE loss:2.963076, AE loss:16.129722, T2A loss:0.067700, Ro loss:0.708202, Avg loss: 22.785162
+ERROR:root:Epoch id: 12, Training steps: 200, ED loss:2.714046,TE loss:3.037658, AE loss:16.816667, T2A loss:0.065876, Ro loss:0.770774, Avg loss: 23.405022
+ERROR:root:Epoch id: 12, Training steps: 250, ED loss:2.428531,TE loss:2.882327, AE loss:17.604691, T2A loss:0.060513, Ro loss:0.676807, Avg loss: 23.652869
+ERROR:root:Epoch id: 12, Training steps: 300, ED loss:2.011614,TE loss:2.774046, AE loss:16.242951, T2A loss:0.062356, Ro loss:0.710127, Avg loss: 21.801094
+ERROR:root:Epoch id: 12, Training steps: 350, ED loss:1.981262,TE loss:2.326875, AE loss:17.064723, T2A loss:0.069859, Ro loss:0.718724, Avg loss: 22.161442
+ERROR:root:Epoch id: 12, Training steps: 400, ED loss:2.525286,TE loss:1.922235, AE loss:16.297826, T2A loss:0.066122, Ro loss:0.705184, Avg loss: 21.516653
+ERROR:root:Epoch id: 12, Training steps: 450, ED loss:1.840738,TE loss:2.809276, AE loss:13.585378, T2A loss:0.060544, Ro loss:0.670602, Avg loss: 18.966537
+ERROR:root:Epoch id: 12, Training steps: 500, ED loss:2.818921,TE loss:3.101829, AE loss:19.405281, T2A loss:0.062278, Ro loss:0.665147, Avg loss: 26.053455
+ERROR:root:Epoch id: 12, Training steps: 550, ED loss:1.845466,TE loss:3.098667, AE loss:15.360133, T2A loss:0.066082, Ro loss:0.717125, Avg loss: 21.087474
+ERROR:root:Epoch id: 12, Training steps: 600, ED loss:2.146617,TE loss:2.740062, AE loss:17.847158, T2A loss:0.061047, Ro loss:0.615299, Avg loss: 23.410182
+ERROR:root:Epoch id: 12, Training steps: 650, ED loss:2.371321,TE loss:3.199144, AE loss:15.492839, T2A loss:0.062658, Ro loss:0.694503, Avg loss: 21.820464
+ERROR:root:Epoch id: 12, Training steps: 700, ED loss:2.838271,TE loss:2.978958, AE loss:19.523850, T2A loss:0.062967, Ro loss:0.690216, Avg loss: 26.094261
+ERROR:root:Epoch id: 12, Training steps: 750, ED loss:2.465461,TE loss:1.908525, AE loss:15.465013, T2A loss:0.059785, Ro loss:0.681820, Avg loss: 20.580604
+ERROR:root:Epoch id: 12, Training steps: 800, ED loss:1.892159,TE loss:2.532503, AE loss:15.864329, T2A loss:0.061408, Ro loss:0.715395, Avg loss: 21.065794
+ERROR:root:Epoch id: 12, Training steps: 850, ED loss:2.265687,TE loss:2.379030, AE loss:16.650271, T2A loss:0.066464, Ro loss:0.756466, Avg loss: 22.117918
+ERROR:root:Epoch id: 12, Training steps: 900, ED loss:2.099056,TE loss:2.884684, AE loss:16.729561, T2A loss:0.065446, Ro loss:0.744207, Avg loss: 22.522954
+ERROR:root:Epoch id: 12, Training steps: 950, ED loss:2.648589,TE loss:3.200605, AE loss:16.443018, T2A loss:0.062771, Ro loss:0.664229, Avg loss: 23.019213
+ERROR:root:Epoch id: 12, Training steps: 1000, ED loss:2.330576,TE loss:2.395060, AE loss:17.893728, T2A loss:0.062063, Ro loss:0.670720, Avg loss: 23.352148
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 12, Type P: 0.8724, Type R: 0.9024, Type F: 0.8852
+ERROR:root:Epoch id: 12, Trigger P: 0.9059, Trigger R: 0.8825, Trigger F: 0.8940
+ERROR:root:Epoch id: 12, Args P: 0.8146, Args R: 0.8494, Args F: 0.8316
+ERROR:root:Epoch id: 12, F1 Mean All: 0.8703
+ERROR:root:The Best F1 Is: 0.8703, When Epoch Is: 12, Path Is: ./models_save/epoch:12-2024-08-29-05-19-1724908793/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:93.1, R:85.4, F:89.1
+ERROR:root:TC: P:78.1, R:80.4, F:79.3
+ERROR:root:AI: P:72.4, R:79.4, F:75.8
+ERROR:root:AC: P:71.3, R:77.8, F:74.4
+ERROR:root:Training...
+ERROR:root:Epoch id: 13, Training steps: 50, ED loss:1.685050,TE loss:2.062817, AE loss:14.485746, T2A loss:0.058992, Ro loss:0.665652, Avg loss: 18.958256
+ERROR:root:Epoch id: 13, Training steps: 100, ED loss:1.678006,TE loss:2.211183, AE loss:13.925119, T2A loss:0.064074, Ro loss:0.728364, Avg loss: 18.606746
+ERROR:root:Epoch id: 13, Training steps: 150, ED loss:1.627951,TE loss:1.734061, AE loss:12.995831, T2A loss:0.059907, Ro loss:0.688057, Avg loss: 17.105807
+ERROR:root:Epoch id: 13, Training steps: 200, ED loss:2.220980,TE loss:2.172990, AE loss:15.498237, T2A loss:0.057637, Ro loss:0.680061, Avg loss: 20.629905
+ERROR:root:Epoch id: 13, Training steps: 250, ED loss:1.958781,TE loss:2.010140, AE loss:13.595445, T2A loss:0.061039, Ro loss:0.669872, Avg loss: 18.295277
+ERROR:root:Epoch id: 13, Training steps: 300, ED loss:1.468852,TE loss:2.722009, AE loss:17.333709, T2A loss:0.063707, Ro loss:0.738807, Avg loss: 22.327085
+ERROR:root:Epoch id: 13, Training steps: 350, ED loss:1.974202,TE loss:1.707856, AE loss:15.469690, T2A loss:0.062459, Ro loss:0.717986, Avg loss: 19.932193
+ERROR:root:Epoch id: 13, Training steps: 400, ED loss:1.959737,TE loss:2.921056, AE loss:16.593570, T2A loss:0.063377, Ro loss:0.658576, Avg loss: 22.196316
+ERROR:root:Epoch id: 13, Training steps: 450, ED loss:2.204721,TE loss:2.500462, AE loss:15.140416, T2A loss:0.063568, Ro loss:0.695318, Avg loss: 20.604485
+ERROR:root:Epoch id: 13, Training steps: 500, ED loss:1.600218,TE loss:1.890688, AE loss:13.302606, T2A loss:0.060246, Ro loss:0.676349, Avg loss: 17.530106
+ERROR:root:Epoch id: 13, Training steps: 550, ED loss:2.490725,TE loss:2.805525, AE loss:15.240065, T2A loss:0.065474, Ro loss:0.714486, Avg loss: 21.316274
+ERROR:root:Epoch id: 13, Training steps: 600, ED loss:1.426825,TE loss:2.558516, AE loss:15.662677, T2A loss:0.067661, Ro loss:0.730432, Avg loss: 20.446111
+ERROR:root:Epoch id: 13, Training steps: 650, ED loss:2.237376,TE loss:1.673176, AE loss:15.164635, T2A loss:0.059937, Ro loss:0.696912, Avg loss: 19.832035
+ERROR:root:Epoch id: 13, Training steps: 700, ED loss:2.126580,TE loss:2.897751, AE loss:14.789266, T2A loss:0.062266, Ro loss:0.652900, Avg loss: 20.528764
+ERROR:root:Epoch id: 13, Training steps: 750, ED loss:2.041245,TE loss:2.759950, AE loss:14.376892, T2A loss:0.060109, Ro loss:0.615338, Avg loss: 19.853533
+ERROR:root:Epoch id: 13, Training steps: 800, ED loss:2.081686,TE loss:3.513525, AE loss:16.698451, T2A loss:0.065869, Ro loss:0.750412, Avg loss: 23.109943
+ERROR:root:Epoch id: 13, Training steps: 850, ED loss:2.337904,TE loss:2.138913, AE loss:15.131285, T2A loss:0.061728, Ro loss:0.666608, Avg loss: 20.336437
+ERROR:root:Epoch id: 13, Training steps: 900, ED loss:2.082995,TE loss:1.036150, AE loss:15.313867, T2A loss:0.059057, Ro loss:0.706912, Avg loss: 19.198980
+ERROR:root:Epoch id: 13, Training steps: 950, ED loss:2.306919,TE loss:2.922727, AE loss:16.957718, T2A loss:0.059317, Ro loss:0.653653, Avg loss: 22.900334
+ERROR:root:Epoch id: 13, Training steps: 1000, ED loss:1.562691,TE loss:2.956088, AE loss:16.617752, T2A loss:0.059365, Ro loss:0.641862, Avg loss: 21.837757
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 13, Type P: 0.8795, Type R: 0.9035, Type F: 0.8889
+ERROR:root:Epoch id: 13, Trigger P: 0.8959, Trigger R: 0.8967, Trigger F: 0.8963
+ERROR:root:Epoch id: 13, Args P: 0.8158, Args R: 0.8431, Args F: 0.8292
+ERROR:root:Epoch id: 13, F1 Mean All: 0.8715
+ERROR:root:The Best F1 Is: 0.8715, When Epoch Is: 13, Path Is: ./models_save/epoch:13-2024-08-29-05-21-1724908911/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.8, R:88.1, F:89.9
+ERROR:root:TC: P:77.4, R:82.3, F:79.8
+ERROR:root:AI: P:73.3, R:79.8, F:76.4
+ERROR:root:AC: P:72.1, R:78.1, F:75.0
+ERROR:root:Training...
+ERROR:root:Epoch id: 14, Training steps: 50, ED loss:1.807663,TE loss:1.432923, AE loss:12.174616, T2A loss:0.058245, Ro loss:0.620738, Avg loss: 16.094184
+ERROR:root:Epoch id: 14, Training steps: 100, ED loss:1.486589,TE loss:2.558077, AE loss:11.279419, T2A loss:0.054313, Ro loss:0.621826, Avg loss: 16.000224
+ERROR:root:Epoch id: 14, Training steps: 150, ED loss:1.858419,TE loss:2.576390, AE loss:13.166738, T2A loss:0.062444, Ro loss:0.691074, Avg loss: 18.355065
+ERROR:root:Epoch id: 14, Training steps: 200, ED loss:2.425187,TE loss:2.400017, AE loss:13.290385, T2A loss:0.068948, Ro loss:0.735947, Avg loss: 18.920484
+ERROR:root:Epoch id: 14, Training steps: 250, ED loss:2.075860,TE loss:1.513610, AE loss:12.588420, T2A loss:0.056139, Ro loss:0.674672, Avg loss: 16.908701
+ERROR:root:Epoch id: 14, Training steps: 300, ED loss:1.528925,TE loss:2.412371, AE loss:13.379827, T2A loss:0.067362, Ro loss:0.717224, Avg loss: 18.105709
+ERROR:root:Epoch id: 14, Training steps: 350, ED loss:1.589513,TE loss:2.168816, AE loss:10.702576, T2A loss:0.060341, Ro loss:0.652385, Avg loss: 15.173631
+ERROR:root:Epoch id: 14, Training steps: 400, ED loss:2.030123,TE loss:1.940543, AE loss:13.151923, T2A loss:0.055997, Ro loss:0.633018, Avg loss: 17.811605
+ERROR:root:Epoch id: 14, Training steps: 450, ED loss:1.771456,TE loss:1.346405, AE loss:12.390276, T2A loss:0.058071, Ro loss:0.729026, Avg loss: 16.295234
+ERROR:root:Epoch id: 14, Training steps: 500, ED loss:2.111029,TE loss:2.250343, AE loss:15.395526, T2A loss:0.061601, Ro loss:0.693673, Avg loss: 20.512172
+ERROR:root:Epoch id: 14, Training steps: 550, ED loss:1.326615,TE loss:2.244099, AE loss:14.517641, T2A loss:0.060444, Ro loss:0.663646, Avg loss: 18.812446
+ERROR:root:Epoch id: 14, Training steps: 600, ED loss:1.267468,TE loss:2.248131, AE loss:15.718022, T2A loss:0.061432, Ro loss:0.714645, Avg loss: 20.009698
+ERROR:root:Epoch id: 14, Training steps: 650, ED loss:1.528205,TE loss:2.013456, AE loss:13.940520, T2A loss:0.058100, Ro loss:0.632814, Avg loss: 18.173094
+ERROR:root:Epoch id: 14, Training steps: 700, ED loss:1.935533,TE loss:2.166535, AE loss:13.319615, T2A loss:0.057402, Ro loss:0.612508, Avg loss: 18.091593
+ERROR:root:Epoch id: 14, Training steps: 750, ED loss:1.718358,TE loss:2.841653, AE loss:16.016832, T2A loss:0.063310, Ro loss:0.679548, Avg loss: 21.319700
+ERROR:root:Epoch id: 14, Training steps: 800, ED loss:1.919784,TE loss:3.033408, AE loss:13.601087, T2A loss:0.064327, Ro loss:0.680376, Avg loss: 19.298982
+ERROR:root:Epoch id: 14, Training steps: 850, ED loss:2.109832,TE loss:2.477639, AE loss:12.770272, T2A loss:0.059383, Ro loss:0.670682, Avg loss: 18.087809
+ERROR:root:Epoch id: 14, Training steps: 900, ED loss:1.983791,TE loss:1.869471, AE loss:15.169191, T2A loss:0.064371, Ro loss:0.701240, Avg loss: 19.788064
+ERROR:root:Epoch id: 14, Training steps: 950, ED loss:1.319439,TE loss:1.565527, AE loss:14.407081, T2A loss:0.056702, Ro loss:0.664778, Avg loss: 18.013527
+ERROR:root:Epoch id: 14, Training steps: 1000, ED loss:1.079210,TE loss:1.523071, AE loss:13.968681, T2A loss:0.059330, Ro loss:0.669837, Avg loss: 17.300129
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 14, Type P: 0.8626, Type R: 0.9172, Type F: 0.8842
+ERROR:root:Epoch id: 14, Trigger P: 0.8928, Trigger R: 0.8896, Trigger F: 0.8912
+ERROR:root:Epoch id: 14, Args P: 0.8205, Args R: 0.8478, Args F: 0.8340
+ERROR:root:Epoch id: 14, F1 Mean All: 0.8698
+ERROR:root:The Best F1 Is: 0.8715, When Epoch Is: 13, Path Is: ./models_save/epoch:13-2024-08-29-05-21-1724908911/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:90.9, R:88.0, F:89.4
+ERROR:root:TC: P:74.9, R:84.6, F:79.5
+ERROR:root:AI: P:71.8, R:81.4, F:76.3
+ERROR:root:AC: P:70.8, R:79.8, F:75.1
+ERROR:root:Training...
+ERROR:root:Epoch id: 15, Training steps: 50, ED loss:1.571773,TE loss:1.821471, AE loss:11.718739, T2A loss:0.056180, Ro loss:0.662601, Avg loss: 15.830763
+ERROR:root:Epoch id: 15, Training steps: 100, ED loss:1.110853,TE loss:2.738029, AE loss:13.014176, T2A loss:0.061779, Ro loss:0.663520, Avg loss: 17.588357
+ERROR:root:Epoch id: 15, Training steps: 150, ED loss:0.968072,TE loss:1.513161, AE loss:12.550896, T2A loss:0.061536, Ro loss:0.677406, Avg loss: 15.771072
+ERROR:root:Epoch id: 15, Training steps: 200, ED loss:1.877943,TE loss:1.814373, AE loss:13.143033, T2A loss:0.059773, Ro loss:0.684768, Avg loss: 17.579890
+ERROR:root:Epoch id: 15, Training steps: 250, ED loss:1.832568,TE loss:2.183333, AE loss:11.927207, T2A loss:0.059382, Ro loss:0.662932, Avg loss: 16.665422
+ERROR:root:Epoch id: 15, Training steps: 300, ED loss:1.382513,TE loss:1.882329, AE loss:12.392092, T2A loss:0.060131, Ro loss:0.677864, Avg loss: 16.394929
+ERROR:root:Epoch id: 15, Training steps: 350, ED loss:1.594228,TE loss:2.437641, AE loss:13.184228, T2A loss:0.053824, Ro loss:0.629015, Avg loss: 17.898936
+ERROR:root:Epoch id: 15, Training steps: 400, ED loss:1.130408,TE loss:1.992670, AE loss:13.109344, T2A loss:0.062771, Ro loss:0.699250, Avg loss: 16.994442
+ERROR:root:Epoch id: 15, Training steps: 450, ED loss:1.018985,TE loss:1.875738, AE loss:11.412315, T2A loss:0.057264, Ro loss:0.686934, Avg loss: 15.051237
+ERROR:root:Epoch id: 15, Training steps: 500, ED loss:1.756714,TE loss:1.882413, AE loss:10.696452, T2A loss:0.059158, Ro loss:0.643089, Avg loss: 15.037825
+ERROR:root:Epoch id: 15, Training steps: 550, ED loss:2.038808,TE loss:1.412451, AE loss:15.666957, T2A loss:0.056428, Ro loss:0.663663, Avg loss: 19.838307
+ERROR:root:Epoch id: 15, Training steps: 600, ED loss:1.701376,TE loss:2.386199, AE loss:12.266421, T2A loss:0.058483, Ro loss:0.673195, Avg loss: 17.085674
+ERROR:root:Epoch id: 15, Training steps: 650, ED loss:2.145429,TE loss:1.977642, AE loss:9.729602, T2A loss:0.057583, Ro loss:0.618001, Avg loss: 14.528256
+ERROR:root:Epoch id: 15, Training steps: 700, ED loss:1.235081,TE loss:2.141789, AE loss:11.779466, T2A loss:0.055563, Ro loss:0.629495, Avg loss: 15.841394
+ERROR:root:Epoch id: 15, Training steps: 750, ED loss:1.888591,TE loss:1.642576, AE loss:10.926227, T2A loss:0.064137, Ro loss:0.675618, Avg loss: 15.197148
+ERROR:root:Epoch id: 15, Training steps: 800, ED loss:1.364336,TE loss:1.309101, AE loss:13.690343, T2A loss:0.055240, Ro loss:0.628203, Avg loss: 17.047221
+ERROR:root:Epoch id: 15, Training steps: 850, ED loss:1.678964,TE loss:2.655037, AE loss:13.357356, T2A loss:0.060539, Ro loss:0.682567, Avg loss: 18.434463
+ERROR:root:Epoch id: 15, Training steps: 900, ED loss:1.331038,TE loss:1.780426, AE loss:12.933464, T2A loss:0.060253, Ro loss:0.711905, Avg loss: 16.817086
+ERROR:root:Epoch id: 15, Training steps: 950, ED loss:1.291677,TE loss:1.887662, AE loss:11.372608, T2A loss:0.055030, Ro loss:0.611273, Avg loss: 15.218251
+ERROR:root:Epoch id: 15, Training steps: 1000, ED loss:1.313350,TE loss:1.393338, AE loss:11.535366, T2A loss:0.055599, Ro loss:0.619808, Avg loss: 14.917462
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 15, Type P: 0.8643, Type R: 0.9165, Type F: 0.8846
+ERROR:root:Epoch id: 15, Trigger P: 0.8979, Trigger R: 0.8851, Trigger F: 0.8915
+ERROR:root:Epoch id: 15, Args P: 0.8213, Args R: 0.8452, Args F: 0.8331
+ERROR:root:Epoch id: 15, F1 Mean All: 0.8697
+ERROR:root:The Best F1 Is: 0.8715, When Epoch Is: 13, Path Is: ./models_save/epoch:13-2024-08-29-05-21-1724908911/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.1, R:86.6, F:88.8
+ERROR:root:TC: P:74.1, R:82.2, F:77.9
+ERROR:root:AI: P:71.0, R:80.8, F:75.6
+ERROR:root:AC: P:69.9, R:79.1, F:74.2
+ERROR:root:Training...
+ERROR:root:Epoch id: 16, Training steps: 50, ED loss:1.646102,TE loss:1.755529, AE loss:11.823300, T2A loss:0.060669, Ro loss:0.715675, Avg loss: 16.001274
+ERROR:root:Epoch id: 16, Training steps: 100, ED loss:1.170656,TE loss:1.855308, AE loss:10.919911, T2A loss:0.057750, Ro loss:0.675399, Avg loss: 14.679025
+ERROR:root:Epoch id: 16, Training steps: 150, ED loss:1.181780,TE loss:0.920599, AE loss:9.988199, T2A loss:0.052297, Ro loss:0.630563, Avg loss: 12.773438
+ERROR:root:Epoch id: 16, Training steps: 200, ED loss:1.126941,TE loss:1.059120, AE loss:10.624505, T2A loss:0.051750, Ro loss:0.617812, Avg loss: 13.480127
+ERROR:root:Epoch id: 16, Training steps: 250, ED loss:1.517933,TE loss:2.333198, AE loss:9.417479, T2A loss:0.057373, Ro loss:0.596090, Avg loss: 13.922073
+ERROR:root:Epoch id: 16, Training steps: 300, ED loss:1.065200,TE loss:1.378019, AE loss:9.121382, T2A loss:0.054714, Ro loss:0.638219, Avg loss: 12.257535
+ERROR:root:Epoch id: 16, Training steps: 350, ED loss:1.526247,TE loss:2.308788, AE loss:12.286912, T2A loss:0.056799, Ro loss:0.654999, Avg loss: 16.833747
+ERROR:root:Epoch id: 16, Training steps: 400, ED loss:1.332498,TE loss:1.568211, AE loss:10.889705, T2A loss:0.057848, Ro loss:0.643699, Avg loss: 14.491962
+ERROR:root:Epoch id: 16, Training steps: 450, ED loss:1.737492,TE loss:1.894866, AE loss:12.595801, T2A loss:0.063455, Ro loss:0.749139, Avg loss: 17.040753
+ERROR:root:Epoch id: 16, Training steps: 500, ED loss:1.248763,TE loss:1.574076, AE loss:9.952900, T2A loss:0.051574, Ro loss:0.609842, Avg loss: 13.437154
+ERROR:root:Epoch id: 16, Training steps: 550, ED loss:1.143237,TE loss:2.042813, AE loss:9.738172, T2A loss:0.053998, Ro loss:0.578714, Avg loss: 13.556935
+ERROR:root:Epoch id: 16, Training steps: 600, ED loss:1.147386,TE loss:1.579956, AE loss:11.995484, T2A loss:0.057631, Ro loss:0.634284, Avg loss: 15.414741
+ERROR:root:Epoch id: 16, Training steps: 650, ED loss:1.395625,TE loss:1.813970, AE loss:12.941444, T2A loss:0.055865, Ro loss:0.606544, Avg loss: 16.813447
+ERROR:root:Epoch id: 16, Training steps: 700, ED loss:0.786902,TE loss:1.891254, AE loss:11.900361, T2A loss:0.056029, Ro loss:0.621051, Avg loss: 15.255597
+ERROR:root:Epoch id: 16, Training steps: 750, ED loss:1.379802,TE loss:1.671819, AE loss:11.022217, T2A loss:0.061025, Ro loss:0.691914, Avg loss: 14.826777
+ERROR:root:Epoch id: 16, Training steps: 800, ED loss:1.451267,TE loss:1.622372, AE loss:11.988849, T2A loss:0.061250, Ro loss:0.644684, Avg loss: 15.768422
+ERROR:root:Epoch id: 16, Training steps: 850, ED loss:1.312506,TE loss:1.687846, AE loss:11.553681, T2A loss:0.056810, Ro loss:0.634165, Avg loss: 15.245008
+ERROR:root:Epoch id: 16, Training steps: 900, ED loss:1.471508,TE loss:1.454868, AE loss:13.145640, T2A loss:0.058230, Ro loss:0.667750, Avg loss: 16.797996
+ERROR:root:Epoch id: 16, Training steps: 950, ED loss:0.743926,TE loss:1.683668, AE loss:12.431007, T2A loss:0.058126, Ro loss:0.656603, Avg loss: 15.573330
+ERROR:root:Epoch id: 16, Training steps: 1000, ED loss:0.963036,TE loss:1.708362, AE loss:11.272013, T2A loss:0.058249, Ro loss:0.644467, Avg loss: 14.646126
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 16, Type P: 0.8576, Type R: 0.9057, Type F: 0.8791
+ERROR:root:Epoch id: 16, Trigger P: 0.9151, Trigger R: 0.8736, Trigger F: 0.8938
+ERROR:root:Epoch id: 16, Args P: 0.8322, Args R: 0.8355, Args F: 0.8339
+ERROR:root:Epoch id: 16, F1 Mean All: 0.8689
+ERROR:root:The Best F1 Is: 0.8715, When Epoch Is: 13, Path Is: ./models_save/epoch:13-2024-08-29-05-21-1724908911/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:92.2, R:86.0, F:89.0
+ERROR:root:TC: P:76.5, R:80.9, F:78.6
+ERROR:root:AI: P:72.7, R:78.3, F:75.4
+ERROR:root:AC: P:71.5, R:76.5, F:73.9
+ERROR:root:Training...
+ERROR:root:Epoch id: 17, Training steps: 50, ED loss:1.267484,TE loss:1.504273, AE loss:9.400304, T2A loss:0.055654, Ro loss:0.639136, Avg loss: 12.866851
+ERROR:root:Epoch id: 17, Training steps: 100, ED loss:1.532463,TE loss:1.548730, AE loss:9.305757, T2A loss:0.060426, Ro loss:0.671521, Avg loss: 13.118897
+ERROR:root:Epoch id: 17, Training steps: 150, ED loss:1.206716,TE loss:1.307873, AE loss:9.281272, T2A loss:0.055212, Ro loss:0.656714, Avg loss: 12.507788
+ERROR:root:Epoch id: 17, Training steps: 200, ED loss:1.363769,TE loss:1.516931, AE loss:10.316062, T2A loss:0.054156, Ro loss:0.641596, Avg loss: 13.892513
+ERROR:root:Epoch id: 17, Training steps: 250, ED loss:1.243573,TE loss:1.357057, AE loss:10.837694, T2A loss:0.056573, Ro loss:0.679422, Avg loss: 14.174318
+ERROR:root:Epoch id: 17, Training steps: 300, ED loss:1.041545,TE loss:0.640323, AE loss:9.279561, T2A loss:0.055750, Ro loss:0.686730, Avg loss: 11.703908
+ERROR:root:Epoch id: 17, Training steps: 350, ED loss:0.721511,TE loss:1.622070, AE loss:9.196408, T2A loss:0.056954, Ro loss:0.677731, Avg loss: 12.274674
+ERROR:root:Epoch id: 17, Training steps: 400, ED loss:1.543953,TE loss:2.187759, AE loss:10.055278, T2A loss:0.060327, Ro loss:0.630886, Avg loss: 14.478202
+ERROR:root:Epoch id: 17, Training steps: 450, ED loss:1.070312,TE loss:1.059376, AE loss:11.055505, T2A loss:0.057060, Ro loss:0.701568, Avg loss: 13.943821
+ERROR:root:Epoch id: 17, Training steps: 500, ED loss:0.862045,TE loss:1.579342, AE loss:10.366762, T2A loss:0.054915, Ro loss:0.584311, Avg loss: 13.447376
+ERROR:root:Epoch id: 17, Training steps: 550, ED loss:0.822501,TE loss:0.842299, AE loss:9.909418, T2A loss:0.052017, Ro loss:0.642800, Avg loss: 12.269035
+ERROR:root:Epoch id: 17, Training steps: 600, ED loss:0.579531,TE loss:1.917316, AE loss:10.837126, T2A loss:0.052180, Ro loss:0.606491, Avg loss: 13.992644
+ERROR:root:Epoch id: 17, Training steps: 650, ED loss:0.959079,TE loss:1.625062, AE loss:9.428213, T2A loss:0.055621, Ro loss:0.642497, Avg loss: 12.710472
+ERROR:root:Epoch id: 17, Training steps: 700, ED loss:1.205279,TE loss:1.656632, AE loss:10.474960, T2A loss:0.054802, Ro loss:0.652793, Avg loss: 14.044466
+ERROR:root:Epoch id: 17, Training steps: 750, ED loss:1.140655,TE loss:0.964834, AE loss:9.731019, T2A loss:0.048308, Ro loss:0.550797, Avg loss: 12.435613
+ERROR:root:Epoch id: 17, Training steps: 800, ED loss:1.389202,TE loss:1.249212, AE loss:11.711460, T2A loss:0.055564, Ro loss:0.614873, Avg loss: 15.020311
+ERROR:root:Epoch id: 17, Training steps: 850, ED loss:1.445889,TE loss:1.368158, AE loss:9.233748, T2A loss:0.056094, Ro loss:0.645832, Avg loss: 12.749721
+ERROR:root:Epoch id: 17, Training steps: 900, ED loss:0.754719,TE loss:1.636871, AE loss:9.123876, T2A loss:0.050169, Ro loss:0.602389, Avg loss: 12.168024
+ERROR:root:Epoch id: 17, Training steps: 950, ED loss:0.845847,TE loss:1.544609, AE loss:10.112016, T2A loss:0.055219, Ro loss:0.603816, Avg loss: 13.161506
+ERROR:root:Epoch id: 17, Training steps: 1000, ED loss:1.098609,TE loss:2.442870, AE loss:13.464971, T2A loss:0.062810, Ro loss:0.675966, Avg loss: 17.745227
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 17, Type P: 0.8729, Type R: 0.9022, Type F: 0.8838
+ERROR:root:Epoch id: 17, Trigger P: 0.9009, Trigger R: 0.8905, Trigger F: 0.8957
+ERROR:root:Epoch id: 17, Args P: 0.8212, Args R: 0.8408, Args F: 0.8309
+ERROR:root:Epoch id: 17, F1 Mean All: 0.8701
+ERROR:root:The Best F1 Is: 0.8715, When Epoch Is: 13, Path Is: ./models_save/epoch:13-2024-08-29-05-21-1724908911/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.7, R:87.6, F:89.6
+ERROR:root:TC: P:78.4, R:82.7, F:80.5
+ERROR:root:AI: P:74.1, R:79.6, F:76.8
+ERROR:root:AC: P:72.7, R:77.7, F:75.1
+ERROR:root:Training...
+ERROR:root:Epoch id: 18, Training steps: 50, ED loss:1.307741,TE loss:1.412529, AE loss:8.681831, T2A loss:0.054882, Ro loss:0.600841, Avg loss: 12.057825
+ERROR:root:Epoch id: 18, Training steps: 100, ED loss:1.535051,TE loss:1.583776, AE loss:9.330826, T2A loss:0.053560, Ro loss:0.650185, Avg loss: 13.153398
+ERROR:root:Epoch id: 18, Training steps: 150, ED loss:0.959778,TE loss:1.487427, AE loss:8.867204, T2A loss:0.055842, Ro loss:0.641298, Avg loss: 12.011549
+ERROR:root:Epoch id: 18, Training steps: 200, ED loss:1.131267,TE loss:1.528350, AE loss:9.390712, T2A loss:0.057584, Ro loss:0.656052, Avg loss: 12.763966
+ERROR:root:Epoch id: 18, Training steps: 250, ED loss:0.698924,TE loss:1.107547, AE loss:8.976684, T2A loss:0.050377, Ro loss:0.576662, Avg loss: 11.410195
+ERROR:root:Epoch id: 18, Training steps: 300, ED loss:1.096996,TE loss:2.307125, AE loss:10.871715, T2A loss:0.057104, Ro loss:0.623981, Avg loss: 14.956921
+ERROR:root:Epoch id: 18, Training steps: 350, ED loss:0.709560,TE loss:1.173116, AE loss:9.292368, T2A loss:0.055320, Ro loss:0.585254, Avg loss: 11.815619
+ERROR:root:Epoch id: 18, Training steps: 400, ED loss:1.167332,TE loss:0.957576, AE loss:10.372075, T2A loss:0.056546, Ro loss:0.647954, Avg loss: 13.201483
+ERROR:root:Epoch id: 18, Training steps: 450, ED loss:1.071102,TE loss:1.537816, AE loss:10.195972, T2A loss:0.055511, Ro loss:0.658686, Avg loss: 13.519087
+ERROR:root:Epoch id: 18, Training steps: 500, ED loss:0.771955,TE loss:1.427518, AE loss:9.073734, T2A loss:0.058004, Ro loss:0.687222, Avg loss: 12.018433
+ERROR:root:Epoch id: 18, Training steps: 550, ED loss:0.955962,TE loss:1.071695, AE loss:8.845721, T2A loss:0.051152, Ro loss:0.592560, Avg loss: 11.517090
+ERROR:root:Epoch id: 18, Training steps: 600, ED loss:0.984155,TE loss:1.302502, AE loss:9.776579, T2A loss:0.054204, Ro loss:0.670157, Avg loss: 12.787597
+ERROR:root:Epoch id: 18, Training steps: 650, ED loss:1.322949,TE loss:1.280560, AE loss:8.742535, T2A loss:0.056802, Ro loss:0.645441, Avg loss: 12.048287
+ERROR:root:Epoch id: 18, Training steps: 700, ED loss:1.386151,TE loss:1.220048, AE loss:9.504513, T2A loss:0.052001, Ro loss:0.640701, Avg loss: 12.803414
+ERROR:root:Epoch id: 18, Training steps: 750, ED loss:0.951389,TE loss:1.233631, AE loss:8.460080, T2A loss:0.053094, Ro loss:0.616780, Avg loss: 11.314975
+ERROR:root:Epoch id: 18, Training steps: 800, ED loss:1.110152,TE loss:0.938712, AE loss:10.696769, T2A loss:0.056115, Ro loss:0.602865, Avg loss: 13.404614
+ERROR:root:Epoch id: 18, Training steps: 850, ED loss:0.696915,TE loss:1.460885, AE loss:10.158853, T2A loss:0.058503, Ro loss:0.662998, Avg loss: 13.038153
+ERROR:root:Epoch id: 18, Training steps: 900, ED loss:0.835325,TE loss:0.927510, AE loss:9.448376, T2A loss:0.052231, Ro loss:0.673794, Avg loss: 11.937236
+ERROR:root:Epoch id: 18, Training steps: 950, ED loss:1.060334,TE loss:1.271792, AE loss:10.214628, T2A loss:0.054847, Ro loss:0.668311, Avg loss: 13.269912
+ERROR:root:Epoch id: 18, Training steps: 1000, ED loss:1.137902,TE loss:1.274857, AE loss:8.891416, T2A loss:0.055385, Ro loss:0.589349, Avg loss: 11.948909
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 18, Type P: 0.8641, Type R: 0.9111, Type F: 0.8822
+ERROR:root:Epoch id: 18, Trigger P: 0.8971, Trigger R: 0.8851, Trigger F: 0.8911
+ERROR:root:Epoch id: 18, Args P: 0.8270, Args R: 0.8363, Args F: 0.8316
+ERROR:root:Epoch id: 18, F1 Mean All: 0.8683
+ERROR:root:The Best F1 Is: 0.8715, When Epoch Is: 13, Path Is: ./models_save/epoch:13-2024-08-29-05-21-1724908911/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.5, R:88.1, F:89.8
+ERROR:root:TC: P:76.6, R:83.9, F:80.0
+ERROR:root:AI: P:73.0, R:80.0, F:76.4
+ERROR:root:AC: P:71.7, R:78.2, F:74.8
+ERROR:root:Training...
+ERROR:root:Epoch id: 19, Training steps: 50, ED loss:0.549663,TE loss:1.281877, AE loss:9.178770, T2A loss:0.053967, Ro loss:0.614429, Avg loss: 11.678706
+ERROR:root:Epoch id: 19, Training steps: 100, ED loss:1.010423,TE loss:0.615164, AE loss:8.821779, T2A loss:0.057943, Ro loss:0.688199, Avg loss: 11.193508
+ERROR:root:Epoch id: 19, Training steps: 150, ED loss:0.819684,TE loss:1.711945, AE loss:8.899150, T2A loss:0.057336, Ro loss:0.655199, Avg loss: 12.143314
+ERROR:root:Epoch id: 19, Training steps: 200, ED loss:0.632250,TE loss:1.284784, AE loss:8.060380, T2A loss:0.056228, Ro loss:0.640187, Avg loss: 10.673830
+ERROR:root:Epoch id: 19, Training steps: 250, ED loss:1.333815,TE loss:1.184459, AE loss:8.420659, T2A loss:0.051541, Ro loss:0.624273, Avg loss: 11.614747
+ERROR:root:Epoch id: 19, Training steps: 300, ED loss:0.919156,TE loss:0.789355, AE loss:9.142961, T2A loss:0.055290, Ro loss:0.625067, Avg loss: 11.531829
+ERROR:root:Epoch id: 19, Training steps: 350, ED loss:0.792628,TE loss:1.279055, AE loss:9.518130, T2A loss:0.053365, Ro loss:0.635480, Avg loss: 12.278656
+ERROR:root:Epoch id: 19, Training steps: 400, ED loss:0.859047,TE loss:1.139561, AE loss:9.020543, T2A loss:0.049423, Ro loss:0.580500, Avg loss: 11.649073
+ERROR:root:Epoch id: 19, Training steps: 450, ED loss:0.965118,TE loss:0.947770, AE loss:8.593327, T2A loss:0.054088, Ro loss:0.670258, Avg loss: 11.230562
+ERROR:root:Epoch id: 19, Training steps: 500, ED loss:1.298142,TE loss:1.050317, AE loss:10.808539, T2A loss:0.054234, Ro loss:0.650332, Avg loss: 13.861564
+ERROR:root:Epoch id: 19, Training steps: 550, ED loss:0.767180,TE loss:0.899106, AE loss:8.747509, T2A loss:0.053791, Ro loss:0.640957, Avg loss: 11.108543
+ERROR:root:Epoch id: 19, Training steps: 600, ED loss:0.797267,TE loss:1.929552, AE loss:9.703227, T2A loss:0.053051, Ro loss:0.578971, Avg loss: 13.062067
+ERROR:root:Epoch id: 19, Training steps: 650, ED loss:0.872646,TE loss:0.703731, AE loss:9.566571, T2A loss:0.049903, Ro loss:0.617956, Avg loss: 11.810808
+ERROR:root:Epoch id: 19, Training steps: 700, ED loss:0.658776,TE loss:1.178186, AE loss:8.864925, T2A loss:0.057094, Ro loss:0.662334, Avg loss: 11.421315
+ERROR:root:Epoch id: 19, Training steps: 750, ED loss:0.911850,TE loss:1.633677, AE loss:7.633602, T2A loss:0.052966, Ro loss:0.609183, Avg loss: 10.841278
+ERROR:root:Epoch id: 19, Training steps: 800, ED loss:1.142683,TE loss:0.718428, AE loss:7.190876, T2A loss:0.052438, Ro loss:0.618148, Avg loss: 9.722573
+ERROR:root:Epoch id: 19, Training steps: 850, ED loss:0.930621,TE loss:1.248644, AE loss:7.178470, T2A loss:0.056228, Ro loss:0.617371, Avg loss: 10.031335
+ERROR:root:Epoch id: 19, Training steps: 900, ED loss:0.639626,TE loss:1.179571, AE loss:9.043168, T2A loss:0.056880, Ro loss:0.597030, Avg loss: 11.516275
+ERROR:root:Epoch id: 19, Training steps: 950, ED loss:0.859186,TE loss:1.511432, AE loss:9.585370, T2A loss:0.048341, Ro loss:0.530714, Avg loss: 12.535043
+ERROR:root:Epoch id: 19, Training steps: 1000, ED loss:0.794017,TE loss:0.644627, AE loss:8.622567, T2A loss:0.054789, Ro loss:0.648439, Avg loss: 10.764438
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 19, Type P: 0.8682, Type R: 0.9101, Type F: 0.8866
+ERROR:root:Epoch id: 19, Trigger P: 0.9010, Trigger R: 0.8833, Trigger F: 0.8921
+ERROR:root:Epoch id: 19, Args P: 0.8273, Args R: 0.8368, Args F: 0.8320
+ERROR:root:Epoch id: 19, F1 Mean All: 0.8702
+ERROR:root:The Best F1 Is: 0.8715, When Epoch Is: 13, Path Is: ./models_save/epoch:13-2024-08-29-05-21-1724908911/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.7, R:88.5, F:90.1
+ERROR:root:TC: P:76.8, R:82.7, F:79.6
+ERROR:root:AI: P:73.4, R:79.0, F:76.1
+ERROR:root:AC: P:72.0, R:77.1, F:74.5
+ERROR:root:Training...
+ERROR:root:Epoch id: 20, Training steps: 50, ED loss:0.689771,TE loss:0.953367, AE loss:6.219927, T2A loss:0.048664, Ro loss:0.544837, Avg loss: 8.456566
+ERROR:root:Epoch id: 20, Training steps: 100, ED loss:0.885503,TE loss:0.936412, AE loss:7.718015, T2A loss:0.050964, Ro loss:0.624855, Avg loss: 10.215749
+ERROR:root:Epoch id: 20, Training steps: 150, ED loss:0.887507,TE loss:0.851455, AE loss:7.656772, T2A loss:0.050082, Ro loss:0.585827, Avg loss: 10.031643
+ERROR:root:Epoch id: 20, Training steps: 200, ED loss:0.414152,TE loss:0.981676, AE loss:7.363633, T2A loss:0.052723, Ro loss:0.646752, Avg loss: 9.458935
+ERROR:root:Epoch id: 20, Training steps: 250, ED loss:1.003745,TE loss:1.094437, AE loss:7.939831, T2A loss:0.053661, Ro loss:0.604238, Avg loss: 10.695912
+ERROR:root:Epoch id: 20, Training steps: 300, ED loss:0.855586,TE loss:0.849875, AE loss:9.683991, T2A loss:0.056510, Ro loss:0.647286, Avg loss: 12.093248
+ERROR:root:Epoch id: 20, Training steps: 350, ED loss:0.703678,TE loss:0.677053, AE loss:7.990325, T2A loss:0.048399, Ro loss:0.562466, Avg loss: 9.981921
+ERROR:root:Epoch id: 20, Training steps: 400, ED loss:1.309728,TE loss:1.296065, AE loss:7.020964, T2A loss:0.052534, Ro loss:0.593575, Avg loss: 10.272866
+ERROR:root:Epoch id: 20, Training steps: 450, ED loss:1.050739,TE loss:1.003343, AE loss:10.624600, T2A loss:0.058253, Ro loss:0.647913, Avg loss: 13.384848
+ERROR:root:Epoch id: 20, Training steps: 500, ED loss:0.591365,TE loss:1.067844, AE loss:7.509502, T2A loss:0.055123, Ro loss:0.610869, Avg loss: 9.834703
+ERROR:root:Epoch id: 20, Training steps: 550, ED loss:0.626993,TE loss:1.451279, AE loss:9.053349, T2A loss:0.052459, Ro loss:0.585044, Avg loss: 11.769123
+ERROR:root:Epoch id: 20, Training steps: 600, ED loss:1.002004,TE loss:1.250263, AE loss:8.600419, T2A loss:0.055457, Ro loss:0.668382, Avg loss: 11.576525
+ERROR:root:Epoch id: 20, Training steps: 650, ED loss:0.781808,TE loss:1.745338, AE loss:8.189254, T2A loss:0.054203, Ro loss:0.645915, Avg loss: 11.416519
+ERROR:root:Epoch id: 20, Training steps: 700, ED loss:0.871187,TE loss:1.149086, AE loss:8.082164, T2A loss:0.051676, Ro loss:0.606936, Avg loss: 10.761050
+ERROR:root:Epoch id: 20, Training steps: 750, ED loss:0.572511,TE loss:1.552065, AE loss:10.067164, T2A loss:0.054770, Ro loss:0.618709, Avg loss: 12.865220
+ERROR:root:Epoch id: 20, Training steps: 800, ED loss:0.876897,TE loss:1.227923, AE loss:8.494374, T2A loss:0.053942, Ro loss:0.628593, Avg loss: 11.281728
+ERROR:root:Epoch id: 20, Training steps: 850, ED loss:0.766707,TE loss:0.998352, AE loss:6.888464, T2A loss:0.054809, Ro loss:0.641247, Avg loss: 9.349580
+ERROR:root:Epoch id: 20, Training steps: 900, ED loss:0.609510,TE loss:0.613489, AE loss:8.169790, T2A loss:0.052972, Ro loss:0.673574, Avg loss: 10.119334
+ERROR:root:Epoch id: 20, Training steps: 950, ED loss:0.674916,TE loss:1.176158, AE loss:8.048638, T2A loss:0.052004, Ro loss:0.616677, Avg loss: 10.568394
+ERROR:root:Epoch id: 20, Training steps: 1000, ED loss:0.738428,TE loss:0.681782, AE loss:7.367556, T2A loss:0.052301, Ro loss:0.607901, Avg loss: 9.447968
+ERROR:root:Evaluating...
+ERROR:root:Evaluate on all types:
+ERROR:root:Epoch id: 20, Type P: 0.8675, Type R: 0.9094, Type F: 0.8848
+ERROR:root:Epoch id: 20, Trigger P: 0.8972, Trigger R: 0.8860, Trigger F: 0.8916
+ERROR:root:Epoch id: 20, Args P: 0.8250, Args R: 0.8373, Args F: 0.8311
+ERROR:root:Epoch id: 20, F1 Mean All: 0.8692
+ERROR:root:The Best F1 Is: 0.8715, When Epoch Is: 13, Path Is: ./models_save/epoch:13-2024-08-29-05-21-1724908911/model.bin
+
+ERROR:root:Eval on test set without oracle
+ERROR:root:TI: P:91.3, R:88.5, F:89.9
+ERROR:root:TC: P:76.5, R:83.6, F:79.9
+ERROR:root:AI: P:72.6, R:80.0, F:76.1
+ERROR:root:AC: P:71.2, R:78.1, F:74.5
+ERROR:root:For simplicity, reset batch_size=1 to extract each sentence
+ERROR:root:Test set evaluation.
+ERROR:root:The number of testing instances:898
+ERROR:root:TI: P:91.8, R:88.1, F:89.9
+ERROR:root:TC: P:77.4, R:82.3, F:79.8
+ERROR:root:AI: P:73.3, R:79.8, F:76.4
+ERROR:root:AC: P:72.1, R:78.1, F:75.0
